@@ -1,0 +1,58 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+      font-size: inherit;
+  }
+
+.brand-logo img {
+    height: 64px;
+}
+
+.exhibit-thumbnailView-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: center;
+}
+.video-thumbnail {
+    width: 15vw;
+    height: auto;
+    border: 1px solid #BCB79E;
+    background: #F0FFF0;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    h1, .h1 {
+        font-size: 24px
+    }
+    .video-thumbnail {
+        width: 90vw;
+        height: auto;
+        border: 1px solid #BCB79E;
+        background: rgb(140, 197, 140);
+        padding: 1em;
+        margin: 0.5em;
+        text-align: center;
+    }
+    .card-content {
+        font-size: 8px;
+    }
+    div.exhibit-facet-body{
+        height: 5em;
+    }
+    div.exhibit-facet-value {
+        font-size: 12px;
+    }
+  }

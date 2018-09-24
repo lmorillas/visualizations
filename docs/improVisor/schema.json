@@ -1,0 +1,18 @@
+{
+    "types": {
+        "video": {
+            "pluralLabel": "Videos"
+        },
+        "playlist": {
+            "pluralLabel": "Playlists"
+        }
+    },
+    "properties": {        
+        "Date": {
+            "valueType":              "date",
+            "label":                  "Date"
+        }
+        
+    }
+}
+
