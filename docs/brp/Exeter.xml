@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Templates
+  <event start="1939-01-01T00:00:00Z"
+  title=""
+  color="blue">
+     (Burns)
+  </event>
+   <event start="1939-01-01T00:00:00Z"
+     end=       "1939-02-02T00:00:00 GMT"
+     durationEvent="true"
+  title=""
+  color="blue">
+     (NH.n)
+  </event>
+-->
+<data>
+  <event start="1928-08-01T00:00:00Z"
+  title="EXETER laid down at Devonport"
+  color="blue">
+    "York" class cruiser (Burns)
+  </event>
+  <event start="1929-07-18T00:00:00Z"
+  title="EXETER launched at Devonport"
+  color="blue">
+    8,390 tons, 575' x 58' x 17'; 32 knots, complement 630; Armament 6 x 8", 4 x 4" A.A., 6 x 21" T.T.  (triples); 2 aircraft; 2 catapults. (Burns)
+  </event>
+  <event start="1939-08-17T00:00:00Z" title="EXETER arrived Devonport to commence leave period" color="blue">
+     (NH.n)
+   </event>
+  <event start="1939-08-23T00:00:00Z" title="Leave cancelled" color="blue">
+    Ship’s Company on leave recalled and prepared to return to duty in South American Division of America and West Indies Squadron (NH.n)
+   </event>
+  <event start="1939-08-25T00:00:00Z" title="EXETER deployed" color="blue">
+    Heavy cruiser EXETER departed Devonport for the South America Station via Freetown and Rio de Janiero (NH.n)
+  </event>
+  <event start="1939-08-26T00:00:00Z" end="1939-08-28T00:00:00Z" durationEvent="true" title="Escort detail" color="blue">
+    Heavy cruiser EXETER joined light cruisers COLOMBO and DAUNTLESS, escorting British liner DUNERA (11,162grt). Off Cape St Vincent on the 28th, EXETER was detached to proceed to Rio de Janiero, via Cape Verde Islands (NH.n)
+  </event>
+  <event start="1939-09-01T00:00:00Z" title="EXETER departs Freetown" color="blue">
+    Sailed from Freetown for passage to Rio de Janeiro (NH.n)
+  </event>
+  <event start="1939-09-03T00:00:00Z" title="EXETER on station" color="blue">
+    Took-up war station in South American Division of America and West Indies Squadron for deployment in South Atlantic for trade defence and the interception of German shipping (NH.n)
+  </event>
+  <event start="1939-09-03T11:00:00Z" title="Commencement of Hostilities" color="blue">
+    Rugby wireless transmission: "1100HRS: COMMENCE HOSTILITIES AT ONCE AGAINST GERMAN SHIPPING" (Gilbey)
+  </event>
+  <event start="1939-09-08T00:00:00Z" title="EXETER on patrol off Rio" color="blue">
+    Patrolled in area of Rio de Janeiro with HM Cruiser AJAX (NH.n)
+  </event>
+  <event start="1939-09-09T00:00:00Z" title="EXETER on passage to River Plate" color="blue">
+    EXETER met HM Cruiser AJAX and made joint passage to Plate estuary (NH.n)
+  </event>
+  <event start="1939-09-15T00:00:00Z" title="EXETER escort detail" color="blue">
+    Escorted convoy from Plate estuary with HM Destroyer HOTSPUR (NH.n)
+  </event>
+  <event start="1939-09-15T00:00:00Z" title="EXETER on patrol off Rio" color="blue">
+    Deployed on patrol off Rio de Janeiro after call at Montevideo (NH.n)
+  </event>
+  <event start="1939-10-27T00:00:00Z" title="EXETER makes passage to Falklands from patrol" color="blue">
+    Cdre Harwood transfers his flag to HMS AJAX (NH.n)
+  </event>
+  <event start="1939-11-01T00:00:00Z" latestStart="1939-11-02T00:00:00Z" end="1939-11-22T00:00:00Z" durationEvent="true" title="Patrol in Rio de Janiero area" color="blue">
+     (NH.n)
+  </event>
+  <event start="1939-11-22T00:00:00Z" end="1939-11-30T00:00:00Z" durationEvent="true" title="EXETER makes passage to Falklands from Rio patrol" color="blue">
+     Passage to Falklands via Plate area for search. (Note: Intended repair period in Simonstown cancelled.) Arrived 30 Nov at Port Stanley for self-refit (NH.n)
+  </event>
+  <event start="1939-12-01T00:00:00Z" title="EXETER and AJAX at Port Stanley" color="blue">
+     (NH.n)
+  </event>
+  <event start="1939-12-08T00:00:00Z" title="EXETER and CUMBERLAND patrol Falklands" color="blue">
+    The Admiralty anticipated that the German pocket battleship might attack Port Stanley on the anniversary of the Falkland Island naval battle in which a British force under Vice Admiral Sir Doveton Sturdee defeated a German force under Vice Admiral Graf Maximilian von Spee on 8 December 1914 (NH.n) 
+   </event>
+  <event start="1939-12-09T11:00:00-02:00" title="EXETER sails from Port Stanley" color="blue">
+    EXETER left late that morning to escort Falkland Island Company ship LAFONIA (1961grt) to Rio de la Plata (NH.n)
+  </event>
+  <event start="1940-01-21T00:00:00Z" end="1940-02-15T00:00:00Z" durationEvent="true" title="EXETER passage to Devonport" color="blue">
+     Began passage to UK escorted for part of voyage by HM Cruisers DORSETSHIRE and SHROPSHIRE until relieved by HM Cruisers DEVONSHIRE and CUMBERLAND. Arrived at Plymouth for repair and modernisation including fit of aircraft warning radar (Type 279) and improved AA armament 15 Feb. (NH.n)
+  </event>
+  <event start="1940-01-29T00:00:00-02:00" title="Handover of EXETER escorts" color="blue">
+    In position 200 miles east of Pernambuco the ARK ROYAL force RVed with the EXETER force. DORSETSHIRE and SHROPSHIRE then detached for Buenos Aires and Montevideo, respectively. The ARK ROYAL force escorting the EXETER set course for Freetown. (NH.n)
+  </event>
+  <event start="1940-02-03T00:00:00-02:00" title="EXETER arrives in Freetown" color="blue">
+    ARK ROYAL, RENOWN, EXETER, DAINTY and DIAMOND arrived at Freetown. Awaiting EXETER was the heavy repair ship RESOURCE and further repairs were carried out to EXETER (NH.n)
+  </event>
+  <event start="1940-02-06T18:00:00-01:00" title="EXETER sails for Plymouth" color="blue">
+    At 1800N ARK ROYAL, RENOWN, EXETER, DAINTY and DIAMOND sailed from Freetown and set course for Plymouth. (NH.n)
+  </event>
+  <event start="1940-02-09T18:00:00-01:00" title="EXETER and RENOWN proceed to RV" color="blue">
+    At 1800N in position 23-30N, 21-20W, RENOWN and EXETER detached to proceed to rendezvous 'B' 48N, 13-30W.  The destroyers DAINTY and DIAMOND were detached to Dakar to refuel. (NH.n)
+  </event>
+  <event start="1940-02-10T00:00:00-01:00" title="Operation VO" color="blue">
+    ARK ROYAL, RENOWN and EXETER came under the command of the CinC Western Approaches for Operation VO. Operation VO was the interception of six German merchant ships which had departed Vigo on the night of the 9th/10th February. (NH.n)
+  </event>
+<!--1940-02-15 Heavy cruiser EXETER (above - Navy Photos/Paul Simpson & Ian Mort) finally arrived at Plymouth, screened by aircraft carrier ARK ROYAL, battlecruiser RENOWN and light cruiser GALATEA, but without destroyer HERO. In the South Western Approaches, she had been joined by her close destroyer escort, starting with HASTY on the 13th, ACASTA and WHITSHED earlier on the 14th, and ARDENT, HEARTY, WOLVERINE and WREN later in the day. ARK ROYAL also reached Plymouth on the 15th escorted by destroyers KEITH, WAKEFUL, VETERAN and ANTELOPE, and EXETER repaired at Devonport until 10 March 1941  http://www.naval-history.net/xDKWW2-4002-11FEB02.htm -->
+  <event start="1940-02-11T00:00:00-01:00" title="Operation VO" color="blue">
+    ARK ROYAL, RENOWN and EXETER were joined by destroyers HASTY and HERO. ARK ROYAL’s Swordfish were involved in searching for the German steamers. (NH.n)
+  </event>
+  <event start="1940-02-12T09:00:00-01:00" title="EXETER's escort strengthened" color="blue">
+    At 0900 hours in position 45N, 15W ARK ROYAL, RENOWN and EXETER were joined by destroyers ACASTA, WHITSHED and VESPER (NH.n)
+  </event>
+   <event start="1940-02-12T09:00:00-01:00"
+     end=       "1940-02-15T00:00:00Z"
+     durationEvent="true"
+  title="EXETER and escorts evade German submarine patrol"
+  color="blue">
+    From information gained by German naval intelligence, B-dienst, the Germans knew of the movements of the EXETER and were determined to prevent her returning to Britain. Dönitz was ordered to use U37 and U48 and Dönitz added U13 to set up a patrol line across the western end of the English Channel. However they failed to make contact with the returning EXETER or any of her escort (NH.n)
+  </event>
+  <event start="1940-02-15T00:00:00-00:00" title="EXETER returns to Plymouth" color="blue">
+    RENOWN, EXETER, cruiser GALATEA and destroyers ARDENT, HEARTY, WOLVERINE and WREN arrived at Plymouth. (NH.n)
+  </event>
+<!--Friday, 16 February
+RESCUE OF BRITISH SEAMEN FROM GERMAN TANKER ALTMARK
+http://www.naval-history.net/xDKWW2-4002-11FEB02.htm-->
+</data><!--Edit Tue 20 Sep 13:31:46 BST 2016-->

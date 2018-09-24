@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <event start="1932-10-01T00:00:00Z" title="Laid down" color="green">
+Laid down as Panzerschiffe C, although it was initially known as Ersatz Braunschweig. (Feldgrau)
+</event>
+  <event start="1934-06-30T00:00:00Z" title="Launched" color="green">
+(Feldgrau)
+</event>
+  <event start="1936-01-01T00:00:00Z" title="Commissioned" color="green">
+Commissioned into the Kriegsmarine at Wilhelmshaven as Panzerschiffe Admiral Graf Spee (Feldgrau)
+</event>
+  <event start="1936-01-01T00:00:00Z" end="1936-05-08T00:00:00Z" durationEvent="true" title="Testing, training, and gunnery trials" color="green">
+(Feldgrau)
+</event>
+  <event start="1936-05-09T00:00:00Z" title="In service" color="green">
+Joined the rest of the fleet, as the fleet flagship (Feldgrau)
+</event>
+  <event start="1936-05-29T00:00:00Z" title="Fleet Parade" color="green">
+Took part in the fleet parade at Kiel for the dedication of the naval memorial at Laboe (Feldgrau)
+</event>
+  <event start="1936-08-20T00:00:00Z" end="1936-10-09T00:00:00Z" durationEvent="true" title="Operations in Spanish waters" color="green">
+(Feldgrau)
+</event>
+  <event start="1936-12-13T00:00:00Z" end="1937-02-14T00:00:00Z" durationEvent="true" title="Operations in Spanish waters" color="green">
+(Feldgrau)
+</event>
+  <event start="1937-02-07T00:00:00Z" end="1937-02-18T00:00:00Z" durationEvent="true" title="Operations in Spanish waters" color="green">
+(Feldgrau)
+</event>
+  <event start="1937-03-02T00:00:00Z" end="1937-05-06T00:00:00Z" durationEvent="true" title="Operations in Spanish waters" color="green">
+(Feldgrau)
+</event>
+  <event start="1937-05-15T00:00:00Z" end="1937-05-22T00:00:00Z" durationEvent="true" title="Spithead Review" color="green">
+Took part in the Spithead International Naval Review on the occasion of the coronation of King George VI (Feldgrau)
+color="green"
+</event>
+  <event start="1937-06-23T00:00:00Z" end="1937-08-07T00:00:00Z" durationEvent="true" title="Operations in Spanish waters" color="green">
+(Feldgrau)
+</event>
+  <event start="1937-09-18T00:00:00Z" end="1937-09-20T00:00:00Z" durationEvent="true" title="Cruise to Visby, Sweden" color="green">
+(Feldgrau)
+</event>
+  <event start="1937-12-01T00:00:00Z" end="1937-12-02T00:00:00Z" durationEvent="true" title="Cruise to Kristiansand, Norway" color="green">
+(Feldgrau)
+</event>
+  <event start="1938-06-29T00:00:00Z" end="1938-07-09T00:00:00Z" durationEvent="true" title="Training cruise in Norwegian waters" color="green">
+(Feldgrau)
+</event>
+  <event start="1938-08-22T00:00:00Z" title="Fleet Parade" color="green">
+Took part in the fleet parade in Kiel Bay on the occasion of the state visit of Admiral von Horthy of Hungary. Discontinued service as the fleet flagship at this time (Feldgrau)
+</event>
+  <event start="1938-10-06T00:00:00Z" end="1938-10-23T00:00:00Z" durationEvent="true" title="Training cruise" color="green">
+Training in Atlantic waters, making port at Vigo and Tangier (Feldgrau)
+</event>
+  <event start="1938-11-10T00:00:00Z" end="1938-11-24T00:00:00Z" durationEvent="true" title="Training cruise" color="green">
+Training in Atlantic waters, making port at Bilbao (Feldgrau)
+</event>
+  <event start="1939-03-22T00:00:00Z" end="1939-03-24T00:00:00Z" durationEvent="true" title="Erinnerung an die Heimkerhr des Memellandes" color="green">
+Took part in operations during the annexation of Memel (Feldgrau)
+</event>
+  <event start="1939-04-18T00:00:00Z" end="1939-05-16T00:00:00Z" durationEvent="true" title="Naval manoeuvres" color="green">
+Service in Atlantic waters on naval manoeuvres along with Panzerschiffe Deutschland, Panzerschiffe Admiral Scheer, Kruizer Leipzig, Kruizer Koln, a Zerstorer, a Uboat tender, and various submarine flotillas. Made port at Ceuta and Lisbon (Feldgrau)
+</event>
+  <event start="1939-05-30T00:00:00Z" title="Escort to Legion Condor" color="green">
+Along with Panzerschiffe Admiral Scheer, Aviso Hamburg, 3 Zerstorer and a number of Torpedoboots, Graf Spee escorted the transport fleet of the Legion Condor arriving from Spain. The transport fleet were escorted into the harbour at Hamburg (Feldgrau)
+</event>
+  <event start="1939-08-17T00:00:00Z" title="Recalled to Wilhelmshaven" color="green">
+Recalled from torpedo firing exercises and ordered to prepare for war duty
+(Gilbey)
+</event>
+  <event start="1939-08-21T20:00:00Z" title="Left Wilhelmshaven for South Atlantic waters" color="green">
+(Feldgrau, Gilbey)
+</event>
+  <event start="1939-09-01T07:30:00Z" title="Rendezvous with 'Altmark'" color="green">
+Admiral Graf Spee meets with Altmark in 25 deg 52 min N, 35 deg 49 min W.
+(Gilbey)
+</event>
+  <event start="1939-09-11T00:00:00Z" end="1939-09-25T00:00:00Z" durationEvent="true" title="Waiting for orders" color="green">
+Held in a waiting position more than 900 miles east of Bahia (Feldgrau)
+</event>
+  <event start="1939-09-26T00:00:00Z" title="Start of raiding operations" color="green">
+Released for operations against Allied merchant shipping in the South Atlantic and Indian Oceans (Feldgrau)
+</event>
+  <event start="1939-09-30T11:20:00Z" title="SS Clement" color="green">
+Graf Spee finds and sinks its first victim, the British freighter Clement (5051 BRT) while off of Pernambuco (Feldgrau)
+</event>
+  <event start="1939-10-01T00:00:00Z" end="1939-11-04T00:00:00Z" durationEvent="true" title="Eastern South Atlantic" color="green">
+In the steamship lane in the Atlantic between Capetown - Freetown (Feldgrau)
+</event>
+  <event start="1939-10-05T00:00:00Z" title="SS Newton Beach boarded" color="green">
+The British freighter Newton Beech (4651 BRT) is stopped and occupied by crew from the Graf Spee (Feldgrau)
+</event>
+  <event start="1939-10-07T00:00:00Z" title="SS Ashlea" color="green">
+The British freighter Ashlea (4222 BRT) is stopped and sunk (Feldgrau)
+</event>
+  <event start="1939-10-08T00:00:00Z" title="SS Newton Beech sunk" color="green">
+The Newton Beech (see 5 Oct) is sunk (Feldgrau)
+</event>
+  <event start="1939-10-10T00:00:00Z" title="SS Huntsman boarded" color="green">
+The British freighter Huntsman (8196 BRT) is stopped and occupied by crew from the Graf Spee (Feldgrau)
+</event>
+  <event start="1939-10-14T08:24:00Z" title="Rendezvous with 'Altmark'" color="green">
+On meeting Altmark again, Capt. Langsdorff transferred his prisoners to the supply ship, together with an officer and some men for their supervision (Gilbey)
+</event>
+  <event start="1939-10-17T00:00:00Z" title="SS Huntsman sunk" color="green">
+The Huntsman (see 10 Oct) is sunk (Feldgrau)
+</event>
+  <event start="1939-10-22T00:00:00Z" title="MV Trevanion sunk" color="green">
+The British motor ship Trevanion (5299 BRT) is stopped and sunk (Feldgrau)
+</event>
+  <event start="1939-10-28T00:00:00Z" title="Rendezvous with 'Altmark'" color="green">
+Meeting with 'Altmark' in mid-Atlantic north-west of Capetown (Gilbey)
+</event>
+  <event start="1939-11-04T00:00:00Z" end="1939-11-19T00:00:00Z" durationEvent="true" title="Indian Ocean" color="green">
+The Graf Spee moved into the Indian Ocean (Feldgrau) Langsdorff expected intense  traffic running in the shipping lanes between Australia and Capetown (Gilbey)
+</event>
+  <event start="1939-11-15T00:00:00Z" title="MS Africa Shell sunk" color="green">
+The British motor tanker Africa Shell (706 BRT) is stopped and sunk (Feldgrau)
+</event>
+  <event start="1939-11-20T00:00:00Z" end="1939-12-12T00:00:00Z" durationEvent="true" title="South Atlantic" color="green">
+Graf Spee returns to her earlier operations area in the middle Atlantic sea lanes (Feldgrau)
+</event>
+  <event start="1939-11-26T00:00:00Z" end="1939-11-29T12:00:00Z" durationEvent="true" title="Rendezvous with 'Altmark'" color="green">
+On meeting 'Altmark', work began immediately to overhaul Graf Spee's engines and take on fuel. (Gilbey)
+</event>
+  <event start="1939-12-02T14:31:00Z" end="1939-12-02T16:35:00Z" durationEvent="true" title="SS Doric Star" color="green">
+Sinks the British freight steamer Doric Star (10,086 BRT) (Feldgrau) SS Doric Star sunk by gunfire south of St. Helena in position 19.15S, 05.05E (Blue Star Line)
+</event>
+  <event start="1939-12-03T00:00:00Z" title="SS Tairoa sunk" color="green">
+Sinks the British refrigerator ship Tairoa (7983 BRT) (Feldgrau) In position 21,38'S 3,13W
+</event>
+  <event start="1939-12-06T00:00:00Z" title="Rendezvous with Altmark" color="green">
+Graf Spee meets the German supply ship Altmark at 25.5S, 24.5W. The Graf Spee had met the Altmark 9 times to refuel, and this was its last meeting with the ship (Feldgrau)
+</event>
+  <event start="1939-12-07T00:00:00Z" title="SS Streonsalh" color="green">
+The Graf Spee sinks the British freight steamer Streonsalh (3895 BRT) (Feldgrau) German pocket battleship ADMIRAL GRAF SPEE sank steamer STREONSHALH (3895grt) south of Trinidad in 25‑01S, 27‑50W (NH.n)
+</event>
+</data><!-- Templates
+<event start="1932-10-01T00:00:00Z"
+title="Laid down"
+color="green">
+(Feldgrau)
+</event>
+
+<event start="1932-10-01T00:00:00Z"
+end="1932-10-02T00:00:00Z"
+durationEvent="true"
+title=""
+color="green">
+(Feldgrau)
+</event>
+-->

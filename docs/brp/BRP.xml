@@ -1,0 +1,434 @@
+<data date-time-format="iso8601">
+  <!-- Template
+  <event start="1939-12-13T06:20:00-02:00"
+  title="">
+  xxxx
+  </event>
+  <event start="1939-12-13T00:00:00-02:00"
+         end=  "1939-12-14T00:00:00-02:00"
+         durationEvent="true"
+         title="">
+  xxxx
+  </event>
+  -->
+  <event start="1939-10-27T00:00:00ZZ" title="Cdre Harwood moves flag to Ajax" color="blue">
+    EXETER and CUMBERLAND were to form a 'hunting group'. It was for this reason that Harwood transferred from EXETER to AJAX on 27th October. (Adm. Woodhouse, quoted by EMD p167)
+  </event>
+  <event start="1939-12-01T00:00:00Z" title="ACHILLES patrolling near Rio de Janiero" color="blue">
+     (NH.n)
+  </event>
+  <event start="1939-12-02T00:00:00Z" title="ACHILLES at Cabadello" color="blue">
+     (NH.n)
+  </event>
+  <event start="1939-12-02T00:00:00Z" title="AJAX sails from Port Stanley to relieve CUMBERLAND off Rio de la Plata" color="blue">
+     (NH.n)
+  </event>
+  <event start="1939-12-02T12:00:00-02:00" title="Doric Star attacked" color="green">
+    The British ship DORIC STAR had reported 'being attacked by a pocket battleship in position 19 degrees 15' south, 5 degrees 5' east' during the afternoon of 2nd December, 1939 (Harwood)
+  </event>
+  <event start="1939-12-03T00:00:00Z" title="ACHILLES at Pernambuco" color="blue">
+     (NH.n)
+  </event>
+  <event start="1939-12-03T05:00:00Z" title="Graf Spee strikes again" color="green">
+    A similar report (of pocket battleship attack) had been sent by an unknown vessel 170 miles south-west [of Doric Star] at 0500 G.M.T. on 3rd December. (Harwood)
+  </event>
+  <event start="1939-12-03T13:15:00-02:00" title="Cdre Harwood signals South American Division" color="blue">
+    Orders AJAX, EXETER and ACHILLES to concentrate in the vicinity of the River Plate by 12 December (Harwood)
+  </event>
+  <event start="1939-12-09T00:00:00Z" title="ACHILLES refuels at Montevideo" color="blue">
+    New Zealand light cruiser ACHILLES refuelled at Montevideo, left on the 9th for the Plate and joined sister ship AJAX on the 10th. (NH.n)
+  </event>
+  <event start="1939-12-10T00:00:00Z" title="ACHILLES joins AJAX off the Plate" color="blue">
+    New Zealand light cruiser ACHILLES refuelled at Montevideo, left on the 9th for the Plate and joined sister ship AJAX on the 10th. (NH.n)
+  </event>
+  <event start="1939-12-12T07:00:00-02:00" title="Force G patrols the River Plate shipping lanes" color="blue">
+    Concentration of all three ships was effected by 0700 Tuesday, 12th December, and I then proceeded towards position 32 degrees south, 47 degrees west. (Harwood)
+  </event>
+  <event start="1939-12-12T12:00:00-02:00" title="Cdre Harwood signals policy" color="blue">
+    My policy with three cruisers in company versus one pocket battleship. Attack at once by day or night. By day act as two units, 1st Division (AJAX and ACHILLES) and EXETER diverged to permit flank marking. First Division will concentrate gunfire. By night ships will normally remain in company in open order. Be prepared for the signal ZMM* which is to have the same meaning as MM* except that for Division read Single Ship. (Harwood)
+  </event>
+  <event start="1939-12-12T18:13:00-02:00" title="Engagement tactics signalled" color="blue">
+    My object in the signal ZMM is to avoid torpedoes and take the enemy by surprise and cross his stern. Without further orders ships are to clear the line of fire by hauling astern of the new leading ship. The new leading ship is to lead the line without further orders so as to maintain decisive gun range. (Harwood)
+  </event>
+  <event start="1939-12-13T05:00:00-02:00" end="1939-12-13T05:40:00-02:00" title="Dawn Action Stations exercise" color="blue">
+    On board Exeter the bugler sounded ‘Action Stations’ followed by a long ‘G’ (Atwill) The ship's companies fell out from action stations at 5.40 a.m. and reverted to their usual degree of readiness. (Waters)
+  </event>
+  <event start="1939-12-13T05:20:00-02:00" title="Force G cruises in line ahead" color="blue" icon="rn.jpg">
+    At 0520 the squadron was in position 34 degrees 34 minutes South, 49 degrees 17 minutes West, on a course of 060 degrees, at a speed of 14 knots, cruising in line ahead Ajax, Achilles and Exeter. (Gregory, after Harwood)
+  </event>
+  <event start="1939-12-13T05:20:00-02:00" title="Graf Spee position" color="green" icon="km.jpg">
+    In the early morning SPEE was in position 34deg27'30" S., 49deg55'W, steering 155deg at 15 kt (EMD p170)
+  </event>
+  <event start="1939-12-13T05:52:00-02:00" title="Exeter spotted from Graf Spee" color="green" icon="km.jpg">
+    At 05.52, look outs on the Graf Spee saw two tall masts on the horizon. (HLS) There appeared off the starboard bow ... masts at a range of ~31,000 m. (EMD p170)
+  </event>
+  <event start="1939-12-13T05:58:00-02:00" title="Sunrise">
+    {US Naval Observatory calculation for longitude W49.2, latitude S34.6}
+  </event>
+  <event start="1939-12-13T06:00:00-02:00" title="Exeter identified; full speed ordered" color="green" icon="km.jpg">
+    Sufficient superstructure of the right-hand ship could be seen to identify her as HMS Exeter. The two ships ahead ... were taken to be destroyers. (EMD p170) GRAF SPEE diesel engines were only put to full speed at 0600 (EMD, p181)
+  </event>
+  <event start="1939-12-13T06:10:00-02:00" title="Smoke spotted from Ajax" color="blue" icon="rn.jpg">
+    At 0610, smoke was sighted on the port beam (Dudley Pope, quoted by EMD p179)
+  </event>
+  <event start="1939-12-13T06:11:00-02:00" title="Exeter reports smoke" color="blue" icon="rn.jpg">
+    EXETER ... ran up a flag signal: SMOKE BEARING 320 DEGREES (Dudley Pope, quoted by EMD p179)
+  </event>
+  <event start="1939-12-13T06:14:00-02:00" title="Exeter investigates smoke" color="blue" icon="rn.jpg">
+    At 0614, smoke was sighted bearing 320 and EXETER was ordered to close and investigate it. (Harwood) Commodore's order to Capt. Bell: INVESTIGATE SMOKE BEARING 324 DEGREES. IF THIS IS A BRITISH MERCHANTMAN BOUND FOR THE PLATE DUE TO GET INTO HARBOUR SOON, TRANSFER YOUR SIGNAL TO HER. (Dudley Pope, quoted by EMD p179)
+  </event>
+  <event start="1939-12-13T06:15:00-02:00" title="Graf Spee closes the enemy" color="green" icon="km.jpg">
+    SPEE ... closed the enemy at full speed, altering course about 0615 to 115deg for a running action to starboard with a closing rate (EMD p171) "[I] attacked before enemy could get up steam for maximum speed so as to close to effective range" (Capt Langsdorff, quoted by EMD p296)
+  </event>
+  <event start="1939-12-13T06:16:00-02:00" title="Action Stations" color="blue" icon="rn.jpg">
+    At 0616 EXETER reported "I think it is a pocket battleship"(Harwood). Almost simultaneously, the enemy was sighted by the other cruisers and action stations was sounded off in all three ships. (Waters) Immediately flag N followed by the numerals 322 was run up (Dudley Pope, quoted by EMD p180)
+  </event>
+  <event start="1939-12-13T06:16:00-02:00" title="EXETER raises more steam" color="blue" icon="rn.jpg">
+    ...as the alarm was sounded all the boilers in A boiler room were flashed up and connected (Dudley Pope, quoted by EMD p198)
+  </event>
+  <event start="1939-12-13T06:16:00-02:00" title="Force G divides" color="blue" icon="rn.jpg">
+    While their crews were hurrying to their action stations, the British ships began to act in accordance with the Commodore's plan. (Waters) The First Division immediately altered course together by signal to 340 degrees to close the range. H.M.S. EXETER hauled out of the line and altered course to the westward [course 280] in order to attack the enemy from a widely different bearing and permit flank marking. All ships increased speed. (Harwood)
+  </event>
+  <event start="1939-12-13T06:17:00-02:00" title="Graf Spee opens fire" color="green" icon="km.jpg">
+    Graf Spee first salvo fired [at EXETER] at range 206 Hm (EMD p182, quoting Cdr Rasenack) Two great clouds of fire and smoke burst from the enemy as he fired his first broadside and about a minute later a line of shells landed in the sea about 300 yards short (Toase)
+  </event>
+  <event start="1939-12-13T06:17:00-02:00" end="1939-12-13T07:40:00-02:00" durationEvent="true" title="Active phase of battle" color="red">
+    The action had lasted exactly 82 minutes. In that brief period the Achilles had fired more than 200 broadsides. (Waters)
+  </event>
+  <event start="1939-12-13T06:18:00-02:00" end="1939-12-13T06:30:00-02:00" durationEvent="true" title="Div 1 closing range to 13,000 yards" color="blue" icon="rn.jpg">
+    Meanwhile, Ajax and Achilles were making good and rapid shooting with their 6-inch guns, they were closing the range rapidly and drawing ahead of the enemy (Atwill)
+  </event>
+  <event start="1939-12-13T06:19:30-02:00" title="Graf Spee gets her range" color="green" icon="km.jpg">
+    The next enemy broadside was correct for range but fell about 300 yards astern [of EXETER] (Toase)
+  </event>
+  <event start="1939-12-13T06:20:00-02:00" title="Exeter opens fire" color="blue" icon="rn.jpg">
+    EXETER opened fire at 0620 (Harwood). HMS Exeter returns fire with A and B turrets at a range of 9.5 sea miles (Atwill) The British cruisers were rapidly working up to full power and were steaming at more than 25 knots when the Exeter opened fire at 6.20 a.m., with her four forward guns, at 18,700 yards. (Waters, quoting Capt. Bell)
+  </event>
+  <event start="1939-12-13T06:20:00-02:00" title="Exeter goes to full speed" color="blue" icon="rn.jpg">
+    At 0620 Capt. Bell ordered full speed (Dudley Pope, quoted by EMD p198)
+  </event>
+  <event start="1939-12-13T06:21:00-02:00" title="Graf Spee's 3rd salvo straddles Exeter" color="green" icon="km.jpg">
+    {event estimated time} Graf Spee’s first salvo fell short of Exeter, the second was over and the third straddled the cruiser - classic gunnery. (Atwill)
+  </event>
+  <event start="1939-12-13T06:21:00-02:00" title="Achilles opens fire" color="blue" icon="rn.jpg">
+    HMS Achilles opens fire (Atwill, Harwood)
+  </event>
+  <event start="1939-12-13T06:22:00-02:00" end="1939-12-13T06:26:00-02:00" durationEvent="true" title="Running fight" color="green" icon="km.jpg">
+    The division of the cruiser group had not yet been observed (Cdr Diggins, quoted by EMD p188)
+  </event>
+  <event start="1939-12-13T06:22:30-02:00" title="Exeter's Y turret brought to bear" color="blue" icon="rn.jpg">
+    [Exeter's] two after 8-inch guns (Y Turret) opened fire as soon as they could be brought to bear... (Atwill) Y turret join[ed] in two and a half minutes later [than 0620], having been given permission to disregard the aircraft (EMD, quoting Capt. Bell, p.198)
+  </event>
+  <event start="1939-12-13T06:23:00-02:00" title="Splinter damage to Exeter" color="blue" icon="rn.jpg">
+    At 0623 an 11-inch shell burst just short of Exeter on the starboard side amidships. Splinters from this shell killed the crew of the starboard torpedo tubes, cut gunnery communications and riddled the funnels and searchlights. Other splinters pierced the ship's side and killed two of the decontamination party stationed in the Chief Stoker's bathroom (Atwill)
+  </event>
+  <event start="1939-12-13T06:23:00-02:00" title="Ajax opens fire" color="blue" icon="rn.jpg">
+    HMS Ajax opens fire two minutes after HMS Achilles (Atwill)
+  </event>
+  <event start="1939-12-13T06:24:00-02:00" title="First direct hit on Exeter" color="blue" icon="rn.jpg">
+    Exeter suffered her first direct hit from an 11-inch shell. It landed on B gun deck abaft B turret, ploughed through the Sick Bay below, through the ship's side and into the sea without bursting (Atwill)
+  </event>
+  <event start="1939-12-13T06:25:00-02:00" title="First Division concentrates fire" color="blue" icon="rn.jpg">
+    AJAX and ACHILLES opened in Single Ship firing, but Concentration was employed as soon as W/T touch had been established at about 0625 (Harwood)
+  </event>
+  <event start="1939-12-13T06:26:00-02:00" end="1939-12-13T06:36:00-02:00" durationEvent="true" title="Crossing action (Passiergefecht)" color="green" icon="km.jpg">
+    Crossing action with EXETER on the assumption that AJAX and ACHILLES would not approach further (Cdr Diggins, quoted by EMD p188)
+  </event>
+  <event start="1939-12-13T06:26:00-02:00" title="Direct hit on Exeter B turret" color="blue" icon="rn.jpg">
+    B turret was hit by an 11 inch shell between the guns after firing about 5 broadsides and everyone in front of the breeches were killed including Capt Woods RM (Toase)
+    Splinters from that shell also swept the bridge killing or wounding all the bridge personnel except the Captain and two others and wrecking the wheelhouse communications (Atwill)
+  </event>
+  <event start="1939-12-13T06:26:00-02:00" end="1939-12-13T06:30:00-02:00" durationEvent="false" title="Exeter suffers two more direct hits" color="blue" icon="rn.jpg">
+    During this time [while Capt Bell regained control from the after conning position] Exeter received two more hits forward from 11-inch shells and also suffered some damage from shells bursting short. (Atwill)
+  </event>
+  <event start="1939-12-13T06:30:00-02:00" title="Graf Spee engages Div 1 [splits main armament?]" color="green" icon="km.jpg">
+    Graf Spee again "split" her main armament, switching over one 11-inch turret to engage the 6-inch gun cruisers (Atwill) GRAF SPEE did not at the same time fire on different targets, i.e. division of fire by the heavy guns (EMD, quoting Cdr Rasenack, p273)
+  </event>
+  <event start="1939-12-13T06:30:00-02:00" title="Ajax straddled by 11 in salvoes" color="blue" icon="rn.jpg">
+    AJAX was straddled three times at about 0631. The First Division turned slightly away to throw out the enemy's gunfire (Harwood)
+    </event>
+  <event start="1939-12-13T06:31:00-02:00" end="1939-12-13T06:32:00-02:00" durationEvent="false" title="Exeter fires starboard torpedoes" color="blue" icon="rn.jpg">
+    EXETER fired her starboard torpedoes in local control at 0632 as she turned back to her westerly course (Harwood). The Exeter fired her starboard torpedoes, but these went wide when the German ship made a sudden large alteration of course to port and steered to the north-westward. (Waters)
+  </event>
+  <event start="1939-12-13T06:34:00-02:00" title="First Division turns to port" color="blue" icon="rn.jpg">
+    The First Division turned back to port at 0634 in order to close the range (Harwood)
+  </event>
+  <event start="1939-12-13T06:34:00-02:00" title="Enemy report broadcast" color="blue" icon="rn.jpg">
+    An enemy report was immediately [at start of action] initiated and was broadcast at 0634. Amplifying reports were made at 0640, 0646 and 0722 (Harwood)
+  </event>
+  <event start="1939-12-13T06:36:00-02:00" end="1939-12-13T06:40:00-02:00" durationEvent="true" title="Turn for running fight with EXETER" color="green" icon="km.jpg">
+    The laying of a smoke screen did not hinder her own shooting but made more difficult the shooting of the light cruisers. [re torpedo threat] the cruisers were thus kept abaft the beam (Cdr Diggins, quoted by EMD p188)
+  </event>
+  <event start="1939-12-13T06:36:00-02:00" title="Graf Spee alters course" color="green" icon="km.jpg">
+    Admiral Graf Spee hauled around from an easterly course, now behind Ajax and Achilles, toward the northwest and laid smoke ()
+  </event>
+  <event start="1939-12-13T06:37:00-02:00" title="Ajax launches her spotter plane" color="blue" icon="rn.jpg">
+    AJAX catapulted her aircraft with Lieutenant E. D. G. Lewin, Royal Navy, as pilot, at 0637, a very fine evolution observing that "X" and "Y" turrets were at that time firing on a forward bearing. (Harwood) There was a continuous stratum of cloud at 3,000 feet and we conducted our spotting just below [it] (Capt. Lewin RN, quoted by EMD p266)
+  </event>
+  <event start="1939-12-13T06:37:00-02:00" title="Graf Spee alters course to NW" color="green" icon="km.jpg">
+    At 0637 the GRAF SPEE altered course some 150 degrees to port, and steered to the north-westward under cover of smoke. (Harwood) This drastic turn was made under cover of a smoke screen and was probably dictated by the hot and effective concentrated fire of the Ajax and Achilles and the flanking fire of the Exeter, as well as by her torpedoes. (Waters)
+  </event>
+  <event start="1939-12-13T06:37:15-02:00" end="1939-12-13T06:54:00-02:00" durationEvent="true" title="W/T failure" color="blue" icon="rn.jpg">
+    Delay in establishing W/T communication with the spotter aircraft (Harwood)
+  </event>
+  <event start="1939-12-13T06:37:15-02:00" title="First Division manoeuvres to regain bearing" color="blue" icon="rn.jpg">
+    AJAX and ACHILLES immediately hauled round, first to north, then to the west to close the range and regain bearing, accepting the temporary loss of "A" arcs. Both ships were by this time proceeding at full speed. (Harwood)
+  </event>
+  <event start="1939-12-13T06:38:00-02:00" title="Exeter turns to fire port torpedoes" color="blue" icon="rn.jpg">
+    At about 0638 EXETER altered course to starboard so as to fire her port torpedoes. She then steered to the north-east to close the First Division till about 0645 when she turned to a westerly course to keep within range. (Harwood)
+    </event>
+  <event start="1939-12-13T06:38:00-02:00" title="Two more direct 11in hits on Exeter" color="blue" icon="rn.jpg">
+    Two more shells hit Exeter forward - one hit the sheet anchor, blowing it away and tearing a hole some 8 feet by 6 feet in the ship's side above the waterline and abreast the Paint Shop (Atwill) One struck the foremost turret, putting it and its two 8-inch guns completely out of action. The other burst inside the ship amidships, doing very extensive damage and starting a fierce fire between decks. The observer in the Ajax's aircraft reported that the Exeter completely disappeared in smoke and flame and it was feared that she had gone. However, she emerged and re-entered the action. (Waters)
+  </event>
+  <event start="1939-12-13T06:38:00-02:00" title="8in hit on Graf Spee" color="green" icon="km.jpg">
+    One of Exeter's 8 in shells penetrated two decks, then exploded in Graf Spee's funnel area, destroying her raw fuel processing system ()
+  </event>
+  <event start="1939-12-13T06:40:00-02:00" title="Achilles damaged by 11in fire" color="blue" icon="rn.jpg">
+    At 6.40 a.m. an 11-inch shell fell short of the Achilles in line with her navigating bridge and burst on the water. The flying splinters killed four ratings and seriously wounded two others in the director control tower. (Waters)
+  </event>
+  <event start="1939-12-13T06:45:00-02:00" title="Exeter turns to port" color="blue" icon="rn.jpg">
+    [Exeter] steered to the north-east to close the First Division till about 0645 when she turned to a westerly course to keep within range. (Harwood)
+  </event>
+  <event start="1939-12-13T06:46:00-02:00" title="Achilles fires in individual control" color="blue" icon="rn.jpg">
+    About 0646 reception on ACHILLES fire control W/T set faded, and thereafter she carried on in individual control. (Harwood)
+  </event>
+  <event start="1939-12-13T06:49:00-02:00" end="1939-12-13T07:08:00-02:00" durationEvent="true" title="First Division fire ineffective" color="blue" icon="rn.jpg">
+    During the period ACHILLES was in individual control, she had great difficulty in finding the line, and at first her salvos were falling well short. Reports of the fall of these salvos were transmitted by the aircraft of AJAX whose gun control officer, not knowing that ACHILLES was no longer in concentration firing, accepted them as referring to his own fall of shot, and corrected accordingly. The enemy was making smoke at the time, and conditions for direct observations were very bad. This resulted in AJAX salvos falling well over and the target was not found again until 0708. (Harwood)
+  </event>
+  <event start="1939-12-13T06:50:00-02:00" title="Exeter maintains bearing" color="blue" icon="rn.jpg">
+    [Exeter] hauled round to the westward at 0650, and was still engaging the enemy, adjusting course so as to keep "Y" turret bearing. EXETER now had a list of 7 degrees to starboard, and had several compartments flooded forward as a result of an 11 in. hit under the forecastle. (Harwood)
+    </event>
+  <event start="1939-12-13T06:56:00-02:00" title="Division 1 brings all guns to bear" color="blue" icon="rn.jpg">
+    Ajax and Achilles turned to starboard to bring all their guns to bear (Waters) AJAX and ACHILLES hauled round to the north-westward at 0656 to open their "A " arcs. (Harwood)
+  </event>
+  <event start="1939-12-13T06:56:00-02:00" title="Graf Spee takes evasive action" color="green" icon="km.jpg">
+    GRAF SPEE made frequent alterations of course to throw out our gunfire, and from 0700 onwards she made great use of smoke; she appeared to have some form of chlorosulphonic apparatus aft, and used this as well as smoke floats. (Harwood)
+  </event>
+  <event start="1939-12-13T07:10:00-02:00" title="Division 1 closes in" color="blue" icon="rn.jpg">
+    GRAF SPEE'S range from the First Division was still 16,000 yards at 0710. I then decided to accept the loss of "A" arcs in order to close the range as rapidly as possible. Course was altered to the westward, and AJAX and ACHILLES were ordered to proceed at their utmost speed. (Harwood)
+  </event>
+  <event start="1939-12-13T07:16:00-02:00" title="Graf Spee steers for Exeter" color="green" icon="km.jpg">
+    At 7.16 a.m. the Admiral Graf Spee made a large alteration of course to port under cover of smoke and headed straight for the Exeter as though she intended to finish off that much-damaged ship (Waters)
+  </event>
+  <event start="1939-12-13T07:20:00-02:00" title="Graf Spee re-engages Division 1" color="green" icon="km.jpg">
+    [At 0720] she turned to the north-west and opened her "A" arcs on the First Division. AJAX was immediately straddled three times by 11 in. at a range of 11,000 yards, but the enemy's secondary armament was firing raggedly, and appeared to be going consistently over, between AJAX and ACHILLES (Harwood)
+  </event>
+  <event start="1939-12-13T07:20:00-02:00" title="Graf Spee is hit by 6in fire" color="green" icon="km.jpg">
+    At 0720, the First Division turned to starboard to bring all guns to bear. Our shooting appeared to be very effective, and a fire was observed amidships in GRAF SPEE. (Harwood)
+  </event>
+  <event start="1939-12-13T07:24:00-02:00" title="Ajax fires torpedoes" color="blue" icon="rn.jpg">
+    At 0724 AJAX turned to starboard and fired four torpedoes at a range of 9,000 yards. GRAF SPEE probably saw these being fired, as she at once turned some 130 degrees to port, though she came back to the north-west three minutes later. (Harwood)
+  </event>
+  <event start="1939-12-13T07:24:15-02:00" title="Graf Spee avoids torpedoes" color="green" icon="km.jpg">
+    At 0724 AJAX turned to starboard and fired four torpedoes at a range of 9,000 yards. GRAF SPEE probably saw these being fired, as she at once turned some 130 degrees to port, though she came back to the north-west three minutes later. (Harwood)
+  </event>
+  <event start="1939-12-13T07:25:00-02:00" title="Direct hit on Ajax" color="blue" icon="rn.jpg">
+    At 0725, AJAX received an 11 in. delay action hit on the after superstructure. The shell passed through various cabins, then "X" turret trunk, wrecking the turret machinery below the gunhouse and finally bursting in the Commodore's sleeping cabin, doing considerable damage. A portion of the base of the Shell struck "Y" barbette close to the training rack and jammed the turret. It was this shell that killed four and wounded six of "X" turret's crew. This one hit therefore put both "X" and "Y" turrets of AJAX out of action (Harwood)
+  </event>
+  <event start="1939-12-13T07:27:15-02:00" title="Graf Spee resumes NW course" color="green" icon="km.jpg">
+    At 0724 AJAX turned to starboard and fired four torpedoes at a range of 9,000 yards. GRAF SPEE probably saw these being fired, as she at once turned some 130 degrees to port, though she came back to the north-west three minutes later. (Harwood)
+  </event>
+  <event start="1939-12-13T07:28:00-02:00" title="Division 1 closes in again" color="blue" icon="rn.jpg">
+    AJAX and ACHILLES hauled back to about 260 degrees at 0728 to close the range still further. (Harwood). At 7.28 a.m. the Ajax and Achilles hauled round to port to close the range still more (Waters)
+  </event>
+  <event start="1939-12-13T07:29:00-02:00" title="Exeter's Y turret out of action" color="blue" icon="rn.jpg">
+    0729, Y turret ceased firing owing to failure of electricity supply (EXETER log, EMD p205)
+    EXETER had been dropping gradually astern, as she had to reduce speed owing to damage forward. She still continued firing "Y" turret- in local control until about 0730, when power to the turret failed due to flooding (Harwood)
+  </event>
+  <event start="1939-12-13T07:31:00-02:00" title="Capt Bell resolves to ram" color="blue" icon="rn.jpg">
+    It was after my last gun had ceased to fire ... I informed my Commander, Robert Graham, that I intended to ram if I had the chance. It may seem strange ... but with every gun out of action but still able to steam at over 20 knots there was the possibility of it.  It would have meant the end of us but also of the GRAF SPEE as a raider. (Capt Bell, letter to EMD, quoted p204). Captain Bell said within my hearing "I'm going to ram the b-----d. It will be the end of us but it will sink him too" (Toase)
+  </event>
+  <event start="1939-12-13T07:31:00-02:00" title="Aircraft reports incoming torpedoes" color="blue" icon="rn.jpg">
+    At 0731, the aircraft reported "Torpedoes approaching, they will pass ahead of you." (Harwood)
+  </event>
+  <event start="1939-12-13T07:31:30-02:00" title="Ajax turns towards Graf Spee" color="blue" icon="rn.jpg">
+     I decided, however, not to take any chances, and altered course to 180 degrees, engaging the enemy on the starboard side, with the range closing rapidly. So as to blank ACHILLES fire for as short a time as possible, I directed her by signal to pass under the stern of AJAX. (Harwood)
+  </event>
+  <event start="1939-12-13T07:32:00-02:00" title="Graf Spee evasive manoeuvres" color="green" icon="km.jpg">
+    At 0732 GRAF SPEE turned away to the west, making much smoke and zigzagging to throw out the First Division's gunfire, which, particularly from ACHILLES, appeared to be very accurate at this stage. AJAX was also making very good use of her three available guns. (Harwood)
+  </event>
+  <event start="1939-12-13T07:36:00-02:00" title="Graf Spee re-engages Division 1" color="green" icon="km.jpg">
+    GRAF SPEE altered to the south-west at 0736, and again brought all guns to bear on the First Division. (Harwood)
+  </event>
+  <event start="1939-12-13T07:38:00-02:00" title="Cdre Harwood takes stock" color="blue" icon="rn.jpg">
+    By 0738 the range was down to 8,000 yards. At this time I received a report that AJAX had only 20 per cent, of ammunition left and had only three guns in action, as one of the hoists had failed in "B" turret and "X" and "Y" turrets were both out of action. GRAF SPEE'S shooting was still very accurate and she did not appear to have suffered much damage. (Harwood)
+  </event>
+  <event start="1939-12-13T07:40:00-02:00" title="Division 1 disengages" color="blue" icon="rn.jpg">
+    I therefore decided to break off the day action and try and close in again after dark. Accordingly at 0740 AJAX and ACHILLES turned away to the east under cover of smoke. (Harwood)
+  </event>
+  <event start="1939-12-13T07:40:00-02:00" title="Exeter retires from the battle" color="blue" icon="rn.jpg">
+    [Exeter] could then no longer keep up with the action, and about 0740 steered to the southeast at slow speed, starting to repair damage and make herself seaworthy. (Harwood)
+  </event>
+  <event start="1939-12-13T07:40:15-02:00" title="Ajax damaged by 11in fire" color="blue" icon="rn.jpg">
+    One of GRAF SPEE'S last salvos brought down AJAX'S main top mast and destroyed all her aerials. Jury aerials were, however, soon rigged. (Harwood)
+  </event>
+  <event start="1939-12-13T07:46:00-02:00" end="1939-12-13T22:50:00-02:00" durationEvent="true" title="Pursuit phase of battle" color="orange"/>
+  <event start="1939-12-13T07:46:00-02:00" title="Division 1 begins shadowing Graf Spee" color="blue" icon="rn.jpg">
+    GRAF SPEE made no attempt to follow, but steadied on a course of about 270 degrees, proceeding at about 22 knots on a course direct for the River Plate. After opening the range under smoke for six minutes, I again turned the First Division to the westward and ordered ACHILLES to shadow in Sector "A", on the enemy's starboard quarter, and AJAX in Sector "B", on his port quarter, the range at this time being about 15 miles.(Harwood)
+  </event>
+  <event start="1939-12-13T07:50:00-02:00" title="Graf Spee withdraws" color="green" icon="km.jpg">
+    The general trend of GRAF SPEE'S retreat at this stage was about 255 degrees. His very conspicuous control tower made it an easy matter to shadow him at long range in the excellent visibility prevailing. (Harwood)
+  </event>
+  <event start="1939-12-13T08:07:00-02:00" title="Merchant shipping alerted" color="blue" icon="rn.jpg">
+    At 0807, as AJAX's aerials were still down, I ordered ACHILLES to broadcast GRAF SPEE'S position, course and speed to all British merchant ships. A similar message was broadcast every hour from AJAX until the end of the chase. I also passed this information to Admiralty at 1017 and 1700. (Harwood)
+  </event>
+  <event start="1939-12-13T08:14:00-02:00" title="Exeter recalled" color="blue" icon="rn.jpg">
+    By 8.14 a.m. the Exeter was out of sight to the south-eastward and Commodore Harwood ordered his aircraft to tell her to close. (Waters)
+  </event>
+  <event start="1939-12-13T08:30:00-02:00" end="1939-12-13T09:30:00-02:00" title="Exeter attempts to rejoin" color="blue" icon="rn.jpg">
+    Captain Bell of the Exeter did his best to rejoin but, having only an inaccurate boat compass to steer by, was unable to make contact. (Waters)
+  </event>
+  <event start="1939-12-13T09:10:00-02:00" title="Exeter reports to Flag" color="blue" icon="rn.jpg">
+    Aircraft reports: ‘Exeter is badly damaged, but is joining you as best she can.’ (Waters)
+  </event>
+  <event start="1939-12-13T09:12:00-02:00" title="Ajax recovers her aircraft" color="blue" icon="rn.jpg">
+    At 0912, AJAX recovered her aircraft, the operation being excellently performed under difficult conditions by Captain C. H. L. Woodhouse, and the pilot of the aircraft, Lieutenant E. D. G. Lewin, Royal Navy, and shadowing was resumed. (Harwood) Two minutes later [than 0910] the Ajax recovered her aircraft, which had been in the air for two hours and 35 minutes. (Waters)
+  </event>
+  <event start="1939-12-13T09:30:00-02:00" title="Exeter shores up battle damage" color="blue" icon="rn.jpg">
+    [Capt Bell] then decided to steer towards the nearest land, some 200 miles to the westward, and speed was reduced while bulkheads were being shored and the ship's list corrected. (Waters)
+  </event>
+  <event start="1939-12-13T09:46:00-02:00" title="Cumberland ordered to re-join Force G" color="blue" icon="rn.jpg">
+    At 0946 I ordered CUMBERLAND, then at the Falkland Islands, to close the Plate at full speed. She left at 1200, on the initiative of her Commanding Officer, Captain W. H. G. Fallowfield, Royal Navy, who had by then only received very jumbled messages. On receipt of my signal she at once increased to full speed. (Harwood)
+  </event>
+  <event start="1939-12-13T10:05:00-02:00" title="Graf Spee fires on Achilles" color="green" icon="km.jpg">
+    The Achilles had overestimated the speed of the enemy and by 10.5 a.m. had closed to 23,000 yards. The Admiral Graf Spee then turned and fired two three-gun salvoes of 11-inch shell at her. (Waters) GRAF SPEE thereupon altered course and fired two three gun salvos at ACHILLES; the first was very short, but the second fell close alongside. She appeared to wait for the first salvo to fall before firing the second. (Harwood)
+  </event>
+  <event start="1939-12-13T10:05:15-02:00" title="Achilles turns away" color="blue" icon="rn.jpg">
+    ACHILLES turned away at full speed under smoke and resumed shadowing at longer range. (Harwood)
+  </event>
+  <event start="1939-12-13T10:17:00-02:00" title="Admiralty alerted" color="blue" icon="rn.jpg">
+    At 0807, as AJAX's aerials were still down, I ordered ACHILLES to broadcast GRAF SPEE'S position, course and speed to all British merchant ships. A similar message was broadcast every hour from AJAX until the end of the chase. I also passed this information to Admiralty at 1017 and 1700. (Harwood)
+  </event>
+  <event start="1939-12-13T11:04:00-02:00" title="Graf Spee intercepts SS Shakespeare" color="green" icon="km.jpg">
+    At 1104 a merchant ship was sighted close to GRAF SPEE. She was stopped and was blowing off steam. A few minutes later the following W/T signal was received on 500 k/cs: AJAX (pre-war call sign) from GRAF SPEE—"please pick up lifeboats of English steamer". On coming up with the merchant ship she turned out to be the British S.S. SHAKESPEARE. All her boats were hoisted, and she reported that she did not require any assistance. By this time she was moving out to the southern flank. (Harwood) [It was this message which revealed the identity of the German ship; Cdre Harwood had initially assumed she was the Admiral Scheer] (JRR)
+  </event>
+  <event start="1939-12-13T11:05:00-02:00" title="Exeter reports to Flag" color="blue" icon="rn.jpg">
+    At 1105 I received a signal from EXETER who reported that all her turrets were out of action and that she was flooded forward up to No. 14 bulkhead but could still do 18 knots. I ordered her to proceed to the Falkland Islands at whatever speed was possible without straining her bulkheads. She later reported that one gun of "Y" turret could be fired in local control. (Harwood)
+  </event>
+  <event start="1939-12-13T11:06:00-02:00" end="1939-12-16T12:00:00-02:00" durationEvent="true" title="Exeter makes passage to Port Stanley" color="blue" icon="rn.jpg">
+    Commodore Harwood received a message from the Exeter reporting that all her turrets were out of action and that she was flooded forward but could steam at 18 knots. She was ordered to proceed to the Falkland Islands at whatever speed was possible without straining her bulkheads. She arrived at Port Stanley at noon on 16 December. (Waters)
+  </event>
+  <event start="1939-12-13T12:00:00-02:00" end="1939-12-14T22:00:00-02:00" durationEvent="true" title="Cumberland makes passage from Port Stanley" color="blue" icon="rn.jpg">
+    When the Cumberland sailed from Port Stanley at noon it was on the initiative of her CO, Captain Fallowfield, who, up to that hour, had intercepted only very jumbled messages. (Waters) [HMS Cumberland] had made the passage of 1000 miles from the Falkland Islands in thirty-four hours. (Waters)
+  </event>
+  <event start="1939-12-13T13:30:00-02:00" title="Ajax buries her dead" color="blue" icon="rn.jpg">
+    At approximately 1330 the seven bodies, laid on the quarter deck, shrouded in their hammocks and weighted, were reverently committed to the deep. (Rev. George Dixon, MA, RN (Retd.), Ajax's chaplain, in EMD)
+  </event>
+  <event start="1939-12-13T13:47:00-02:00" title="Naval Attache alerted" color="blue" icon="rn.jpg">
+    At 1347 I informed the British Naval Attache, Buenos Aires, that GRAF SPEE was heading direct for the Plate. (Harwood)
+  </event>
+  <event start="1939-12-13T15:43:00-02:00" title="Alarm from Achilles" color="blue" icon="rn.jpg">
+    At 1543 ACHILLES signalled "Enemy in sight 297", and later reported "Suspected 8 inch cruiser." (Harwood)
+  </event>
+  <event start="1939-12-13T15:59:00-02:00" title="Alarm rescinded" color="blue" icon="rn.jpg">
+    At 1559, [Achilles] negatived the report, and the ship sighted was subsequently identified as S.S. DELANE, whose streamlined funnel gave her a similar appearance to a "Blucher" at very long range. (Harwood)
+  </event>
+  <event start="1939-12-13T17:00:00-02:00" title="Admiralty alerted" color="blue" icon="rn.jpg">
+    At 0807, as AJAX's aerials were still down, I ordered ACHILLES to broadcast GRAF SPEE'S position, course and speed to all British merchant ships. A similar message was broadcast every hour from AJAX until the end of the chase. I also passed this information to Admiralty at 1017 and 1700. (Harwood)
+  </event>
+  <event start="1939-12-13T19:02:00-02:00" title="Cdre Harwood covers escape" color="blue" icon="rn.jpg">
+    It now appeared that GRAF SPEE intended to enter the Plate, and at 1902 I ordered ACHILLES to follow her if she went west of Lobos, while AJAX would proceed south of the English Bank in case she doubled back that way. I also directed ACHILLES to take every advantage of territorial waters while shadowing. My instructions were perfectly carried out by Captain W. E. Parry who took ACHILLES inside Lobos Island and close to the Uruguayan coast. (Harwood)
+  </event>
+  <event start="1939-12-13T19:15:00-02:00" title="Graf Spee fires on Ajax" color="green" icon="km.jpg">
+    Graf Spee ... altered course and fired two 11-inch salvoes at the Ajax as that ship turned away under cover of a smoke screen. The Achilles also turned away on sighting the gun flashes, but quickly resumed her westerly course. (Waters)
+  </event>
+  <event start="1939-12-13T19:42:00-02:00" title="Graf Spee course alteration" color="green" icon="km.jpg">
+    The Admiral Graf Spee made a considerable alteration of course to the north-westward at 7.42 p.m. and, expecting her to open fire, the Achilles made rapid changes of course. (Waters)
+  </event>
+  <event start="1939-12-13T20:50:00-02:00" title="Sunset">
+    {US Naval Observatory calculation for longitude W55.5, latitude S35.0}
+  </event>
+  <event start="1939-12-13T20:51:00-02:00" title="Graf Spee exchanges fire with Achilles" color="green" icon="km.jpg">
+    Just after sunset GRAF SPEE fired three salvos at ACHILLES, the third being very close. ACHILLES replied with five salvos and appeared to straddle. ACHILLES at this time was just clear of Punta Negra. (Harwood)
+  </event>
+  <event start="1939-12-13T21:15:00-02:00" title="URUGUAY closes AJAX" color="blue" icon="rn.jpg">
+    The Uruguayan gunboat URUGUAY closed AJAX about 2115. She appeared to be on patrol duty, but was soon left astern. (Harwood)
+  </event>
+  <event start="1939-12-13T21:32:00-02:00" title="Graf Spee fires single salvo" color="green" icon="km.jpg">
+    GRAF SPEE also fired single salvos at ACHILLES at 2132, 2140 and 2143, but the visibility to the eastward was very bad for her at these times and firing must have merely been intended to keep shadowers at a distance. (Harwood)
+  </event>
+  <event start="1939-12-13T21:40:00-02:00" title="Graf Spee fires single salvo" color="green" icon="km.jpg">
+    GRAF SPEE also fired single salvos at ACHILLES at 2132, 2140 and 2143, but the visibility to the eastward was very bad for her at these times and firing must have merely been intended to keep shadowers at a distance. (Harwood)
+  </event>
+  <event start="1939-12-13T21:43:00-02:00" title="Graf Spee fires single salvo" color="green" icon="km.jpg">
+    GRAF SPEE also fired single salvos at ACHILLES at 2132, 2140 and 2143, but the visibility to the eastward was very bad for her at these times and firing must have merely been intended to keep shadowers at a distance. (Harwood)
+  </event>
+  <event start="1939-12-13T22:00:00-02:00" title="Achilles keeps close watch" color="blue" icon="rn.jpg">
+    By 2200 ACHILLES had closed to within five miles of GRAF SPEE. The latter was well silhouetted first against the afterglow, and then against the lights of Montevideo. (Harwood)
+  </event>
+  <event start="1939-12-13T22:29:00Z" title="Moonset">
+    Phase of the Moon on 13 December: waxing crescent with 8% of the Moon's visible disk illuminated. (USNO)
+  </event>
+  <event start="1939-12-13T23:50:00-02:00" title="Division 1 takes up night patrol" color="blue" icon="rn.jpg">
+    At 2350 I ordered AJAX and ACHILLES to withdraw from the Plate, ACHILLES to patrol the area from the Uruguayan coast to a line 120 degrees from English Bank, and AJAX the southern area, both ships to move back into the Plate in their respective sectors after dawn.  (Harwood)
+  </event>
+  <event start="1939-12-13T22:50:00-03:00" title="Graf SPEE enters Montevideo harbour" color="green" icon="km.jpg">
+    [GRAF SPEE] entered [the port of Montevideo] at 2250 ... as is duly recorded in Volume 112 of Entrances and Departures of Warships. (Gen. Alfredo R. Campos, quoted by EMD, p253)
+  </event>
+  <event start="1939-12-14T00:50:00-02:00" title="Cdre Harwood's report of Graf Spee anchorage" color="green" icon="km.jpg">
+    GRAF SPEE proceeded north of the English Bank and anchored in Montevideo roads at 0050. (Harwood) [This is an error, for explanation see EMD pp. 240-1]
+  </event>
+  <event start="1939-12-15T11:35:00-02:00" title="Adm Harwood makes policy signal" color="blue">
+    "My object destruction. Necessitates concentrating our forces. Increased risk of enemy escape accepted. ACHILLES is now to watch north of English Bank and CUMBERLAND to west of English Bank, latter showing herself off Montevideo in daylight. If enemy leaves before 2100, ships in touch shadow at maximum range—all units concentrate on shadower. If enemy has not left by 2100, leave patrol positions and concentrate in position 090 degrees San Antonio 15 miles by 0030; AJAX will probably join CUMBERLAND on her way south."
+    "If enemy leaves Montevideo after sunset, CUMBERLAND is at once to fly off one aircraft to locate and shadow enemy, if necessary landing in a lee, risking internment, and trying to find a British ship in the morning. If plan miscarries, adopt plan "B" all units concentrate in position 36 degrees south, 52 degrees west at 0600." (Harwood)
+  </event>
+  <event start="1939-12-15T19:00:00-02:00" title="ASHWORTH sails from Montevideo">
+    The British ship ASHWORTH was sailed at 1900 and GRAF SPEE accepted the edict that she would not be allowed to sail for 24 hours after this. At the same time I could feel no security that she would not break out at any moment. (Harwood)
+  </event>
+  <event start="1939-12-16T00:30:00-02:00" title="CUMBERLAND, AJAX, and ACHILLES rendezvous" color="blue">
+    CUMBERLAND, AJAX, and ACHILLES made rendezvous off San Antonio at 0030 in accordance with my plan. (Harwood)
+  </event>
+  <event start="1939-12-16T06:20:00-02:00" end="1939-12-16T08:30:00-03:00" durationEvent="true"
+         title="Dawn aerial reconnaissance" color="blue">
+    The squadron closed the Plate towards dawn and AJAX flew off her aircraft for a reconnaissance of the harbour. The aircraft was instructed not to fly over territorial waters. (Harwood)
+  </event>
+  <event start="1939-12-16T06:27:00-02:00" title="Sunrise">
+    {US Naval Observatory calculation for longitude W56.9, latitude S35.5}
+  </event>
+  <event start="1939-12-16T08:30:00-03:00" title="Reconnaissance report" color="blue">
+    The aircraft returned at 0830 and the crew reported that they had been unable to see anything owing to bad visibility. (Harwood)
+  </event>
+  <event start="1939-12-16T02:19:00-00:00" title="Admiralty signal" color="blue">
+    The Admiralty informed one in message 0219/16th December that I was free to engage GRAF SPEE anywhere outside the three-mile limit. I decided to move my patrol into the area north and east of English Bank, as I considered that a battle in the very restricted water just outside the three-mile limit off Montevideo was impracticable (Harwood)
+  </event>
+  <event start="1939-12-16T16:15:00-03:00" title="Adm Harwood signals tactics" color="blue">
+  </event>
+  <event start="1939-12-16T17:00:00-03:00" title="DUNSTER GRANGE sails from Montevideo">
+    The British ship DUNSTER GRANGE was sailed from Montevideo at 1700 and a further period before GRAF SPEE could be allowed to sail was claimed. It was, however, reported that she had made very rapid progress with her repairs, and might break out at any moment. (Harwood)
+  </event>
+  <event start="1939-12-16T20:29:00-02:00" title="Sunset">
+    {US Naval Observatory calculation for longitude W56.9, latitude S35.5}
+  </event>
+  <event start="1939-12-17T05:26:00-03:00" title="Sunrise">
+    {US Naval Observatory calculation for Montevideo, longitude W56.2, latitude S34.9}
+  </event>
+  <event start="1939-12-17T10:00:00-02:00" end="1939-12-17T12:00:00-02:00" durationEvent="false"
+         title="ACHILLES refuels from OLYNTHUS" color="blue">
+     I ordered ACHILLES who was getting low in fuel, to oil from OLYNTHUS off the Rouen Bank during the forenoon. (Harwood)
+  </event>
+  <event start="1939-12-17T12:00:00-02:00" end="1939-12-17T17:20:00-02:00" durationEvent="true"
+         title="Force G patrols the Plate" color="blue">
+    The squadron then cruised in company off the south-east of the English Bank, remaining concentrated throughout the afternoon and ready again to take up the same night patrol as on the previous night. (Harwood)
+  </event>
+  <event start="1939-12-17T15:40:00-02:00" title="Intelligence received" color="blue">
+    At 1540 I received a signal that GRAF SPEE was transferring between 300 and 400 men to the German ship TACOMA lying close to her in the ante-port. (Harwood)
+  </event>
+  <event start="1939-12-17T17:20:00-02:00" title="Intelligence received" color="blue">
+    At 1720, a further report stated that over 700 men with their baggage and some provisions had now been transferred, and that there were indications that GRAF SPEE intended to scuttle herself. (Harwood)
+  </event>
+  <event start="1939-12-17T18:00:30-03:00" end="1939-12-17T18:05:00-03:00" title="GRAF SPEE weighs anchor" color="green">
+    A few moments after 1800 local time [i.e. GMT-3:00] a large Nazi ensign was broken out from the GRAF SPEE's foremast, followed by a second from the mainmast, and slowly one anchor was weighed.  A few minutes later the second cable rumbled up from the sea bed, and almost imperceptibly the pocket-battleship began to move. (Dudley Pope, quoted by EMD, p344)
+  </event>
+  <event start="1939-12-17T18:05:00-03:00" title="Squadron closes Montevideo" color="blue">
+    I immediately [on report of Graf Spee weighing] altered course to close the Whistle Buoy, and increased to 25 knots. AJAX's aircraft was flown off and ordered to proceed towards Montevideo and report the position of GRAF SPEE and also TACOMA. (Harwood)
+  </event>
+   <event start="1939-12-17T19:55:00-03:00" title="Sunset">
+    {US Naval Observatory calculation for Montevideo, longitude W56.2, latitude S34.9}
+  </event>
+ <event start="1939-12-17T20:54:00-02:00" title="Aircraft reports GRAF SPEE destroyed" color="blue">
+     AJAX aircraft reported sighting GRAF SPEE in a position in shallow water some six miles south-west of Montevideo. At 2054 the aircraft signalled: “GRAF SPEE has blown herself up." (Harwood)
+  </event>
+ <event start="1939-12-17T20:00:00-03:00" title="GRAF SPEE put out of service" color="green">
+     "Pilot, enter in the log book GRAF SPEE put out of service on December 17, 1939, at 2000 hours" (Capt. Langsdorff, reported by Hans Götz, quoted by EMD, p348)
+  </event>
+</data><!-- Edit 20141219 23:07  -->

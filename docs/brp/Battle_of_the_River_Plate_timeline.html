@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+
+    <script src="//api.simile-widgets.org/timeline/2.3.1/timeline-api.js" type="text/javascript"></script>
+    <script>
+        Timeline_ajax_url="//api.simile-widgets.org/ajax/2.2.1/simile-ajax-api.js";
+        var tl;
+        function onLoad() {
+        var eventSource = new Timeline.DefaultEventSource();
+     
+        var bandInfos = [
+         Timeline.createHotZoneBandInfo({
+         zones: [
+             {   start:    "Aug 01 1939 00:00:00 GMT",
+                 end:      "Feb 23 1940 00:00:00 GMT",
+                 magnify:  10,
+                 unit:     Timeline.DateTime.WEEK
+             },
+             {   start:    "Dec 13 1939 02:00:00 GMT",
+                 end:      "Dec 14 1939 02:00:00 GMT",
+                 magnify:  100,
+                 unit:     Timeline.DateTime.HOUR
+             },
+             {   start:    "Dec 13 1939 07:58:00 GMT",
+                 end:      "Dec 13 1939 09:50:00 GMT",
+                 magnify:  20,
+                 unit:     Timeline.DateTime.MINUTE
+             },
+             {   start:    "Dec 14 1939 02:00:00 GMT",
+                 end:      "Dec 18 1939 02:00:00 GMT",
+                 magnify:  10,
+                 unit:     Timeline.DateTime.DAY
+             }
+             ],
+            eventSource:    eventSource,
+            date:           "Dec 13 1939 05:20:00 GMT-0200",
+            width:          "70%", 
+            intervalUnit:   Timeline.DateTime.MONTH,
+            intervalPixels: 60
+        }),
+       Timeline.createBandInfo({
+            overview:       true,
+            eventSource:    eventSource,
+            date:           "Dec 13 1939 05:20:00 GMT-0200",
+            width:          "15%", 
+            intervalUnit:   Timeline.DateTime.MONTH, 
+            intervalPixels: 60
+        }),
+       Timeline.createBandInfo({
+            overview:       true,
+            eventSource:    eventSource,
+            date:           "Dec 13 1939 05:20:00 GMT-0200",
+            width:          "15%", 
+            intervalUnit:   Timeline.DateTime.YEAR, 
+            intervalPixels: 60
+        })
+        ];
+        bandInfos[1].syncWith = 0;
+        bandInfos[2].syncWith = 0;
+        bandInfos[1].highlight = true;
+        bandInfos[2].highlight = true;
+            for (var i = 0; i < bandInfos.length; i++) {
+                bandInfos[i].decorators = [
+                    new Timeline.SpanHighlightDecorator({
+                        startDate:  "Dec 13 1939 06:17:00 GMT-0200",
+                        endDate:    "Dec 13 1939 07:46:00 GMT-0200",
+                        color:      "#FF4500",
+                        opacity:    20,
+                    })
+                    ];
+            }
+        tl = Timeline.create(document.getElementById("battle-timeline"), bandInfos);
+        Timeline.loadXML("BRP.xml",      function(xml, url) { eventSource.loadXML(xml, url); });
+        Timeline.loadXML("GrafSpee.xml", function(xml, url) { eventSource.loadXML(xml, url); });
+        Timeline.loadXML("Exeter.xml",   function(xml, url) { eventSource.loadXML(xml, url); });
+        Timeline.loadXML("Ajax.xml",     function(xml, url) { eventSource.loadXML(xml, url); });
+        Timeline.loadXML("Achilles.xml", function(xml, url) { eventSource.loadXML(xml, url); });
+        }
+
+        var resizeTimerID = null;
+        function onResize() {
+            if (resizeTimerID == null) {
+                resizeTimerID = window.setTimeout(function() {
+                    resizeTimerID = null;
+                    tl.layout();
+                }, 500);
+            }
+        }
+        </script>
+</head>
+<body onload="onLoad();" onresize="onResize();">
+<h1>A Chronology of the Battle of the River Plate</h1>
+
+<h2>December 13th, 1939</h2>
+
+<p>In the South Atlantic summer of 1939, two hundred and ninety miles east of the R&iacute;o de la Plata, a famous naval action was fought between a Royal Navy cruiser squadron (HMS <i>Exeter, Ajax and Achilles</i>) and the Kriegsmarine <i>Panzerschiffe Admiral Graf Spee</i>.</p>
+
+<p>Events before, during and after the battle are displayed in the timeline below.</p>
+
+<p>Use cursor keys &lArr; &rArr; or mouse-drag any of the bands to move them. Double-click at a particular date or time to centre the display there; click on an event title in the upper band to display the event description. Descriptions mostly use the local timezone used by both combatant forces, GMT-2. The timeline is labelled in GMT. See below for source references.</p>
+
+<div id="battle-timeline" style="height: 600px; border: 1px solid #aaa"></div>
+<noscript>
+	This page uses Javascript from simile-widgets.org to show you a Timeline. Please enable Javascript in your browser to see the full page. Thank you.
+	</noscript>
+
+<p>Events recorded between 1 August 1928 and 23 February 1940. Green items relate to <i>Admiral Graf Spee</i> and blue ones to Royal Navy ships.</p>
+
+<h2>Sources:</h2>
+
+<p>(Atwill) <a href="https://www.navyhistory.org.au/hms-exeter-at-the-battle-of-river-plate/">HMS Exeter at the Battle of River Plate</a>, Lieutenant R. Atwill DSM RN (Retd), <i>Naval Historical Review</i> - March 1977, republished online by the Naval Historical Society of Australia<br />
+(Burns) <i>Devonport built warships since 1860</i>, Lt. Cdr. K. V. Burns DSM RN; Duloe:Maritime Books, 1981; ISBN 0-9506323-7-6<br />
+(EMD) <i>The Drama of Graf Spee and the Battle of the River Plate - A Documentary Anthology 1914-1964</i>, Sir Eugen Millington-Drake KCMG, MA; London:Peter Davies, 1964<br />
+(Feldgrau) <a href="https://www.feldgrau.com/grafspee.html">Feldgrau.com - research on the German armed forces 1918-1945</a><br />
+(Gilbey) <i>Langsdorff of the Graf Spee - Prince of Honor</i>, Joseph Gilbey (1999), ISBN 0-9685994-0-0<br />
+(Gregory) <a href="http://ahoy.tk-jk.net/macslog/TheBattleoftheRiverPlate..html">The Battle of the River Plate</a>, Mackenzie J Gregory, in <i>Ahoy, Naval, Maritime, Australian History and more</i><br />
+(Harwood) <a href="http://www.britain-at-war.org.uk/WW2/London_Gazette/river_plate/index.htm">The River Plate Battle, Report to the Lords Commissioners of the Admiralty</a>, 30 December 1939, as published in The London Gazette 17 June 1947, republished by Britain at War.<br />
+(NH.n) <a href="https://www.naval-history.net/index.htm">Naval-History.net</a><br />
+(NZH.n) <a href="https://nzhistory.govt.nz/war/second-world-war">New Zealand History; Nga korero a ipurangi o Aotearoa</a><br />
+(Toase) <a href="https://www.bbc.co.uk/history/ww2peopleswar/stories/15/a5776815.shtml">HMS Exeter- a Royal Marine&#39;s Story</a>, Capt Aidan Edward Toase RM, <i>WW2 People&#39;s War</i>, contributed 16 September 2005<br />
+(U.n) <a href="https://uboat.net/">uboat.net</a><br />
+(Waters) <a href="http://nzetc.victoria.ac.nz/tm/scholarly/tei-WH2Navy-c4.html">Official History of New Zealand in the Second World War</a>, S. D. Waters, Historical Publications Branch, Wellington (1956)<br />
+(USNO) <a href="http://aa.usno.navy.mil/data/docs/RS_OneDay.php">U.S. Naval Observatory</a></p>
+
+<p>((HLS)) <a href="http://www.historylearningsite.co.uk/battle_of_the_river_plate.htm">History Learning Site</a>, Christopher Trueman<br />
+((Wikipedia)) <a href="http://en.wikipedia.org/wiki/Battle_of_the_River_Plate">Wikipedia.org</a></p>
+
+<hr />
+<p><sub>This timeline visualization was compiled by <a href="mailto:jonathan@orlopdeck.net">Jonathan Remick Richards</a>, last revised 20 September 2016<br />
+<a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border-width:0" /></a><br />
+The data collection <i><span href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type" xmlns:dct="http://purl.org/dc/terms/">A Chronology of the Battle of the River Plate</span></i> by <a href="https://www.orlopdeck.net/BRP/Battle_of_the_River_Plate_timeline.html" property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="https://creativecommons.org/ns#">Jonathan Richards</a> is licensed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</sub></p>
+</body>
+</html>

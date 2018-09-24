@@ -1,0 +1,123 @@
+<data date-time-format="iso8601">
+  <!-- Template
+  <event start="1939-12-13T00:00:00-02:00"
+  title="">
+  xxxx (NH.n)
+  </event>
+  <event start="1939-12-13T00:00:00-02:00"
+         end=  "1939-12-14T00:00:00-02:00"
+         durationEvent="true"        
+         title="">
+  xxxx (NH.n)
+  </event>
+  -->
+  <event start="1938-01-11T00:00:00-02:00"
+  title="AJAX recommissioned" color="blue">
+  Recommissioned for service in America and West Indies Squadron. (NH.n)
+  </event>
+  <event start="1938-02-01T00:00:00-02:00"
+         end=  "1938-02-30T00:00:00-02:00"
+         durationEvent="true"        
+         title="AJAX rejoins squadron" color="blue">
+  AJAX rejoined America and West Indies Squadron at Bermuda (NH.n)
+  </event>
+  <event start="1938-03-01T00:00:00-02:00"
+         end=  "1938-12-31T00:00:00-02:00"
+         durationEvent="true"        
+         title="AJAX Deployed with Squadron in West Indies" color="blue">
+  (NH.n)
+  </event>
+  <event start="1939-01-01T00:00:00-02:00"
+         end=  "1939-01-31T00:00:00-02:00"
+         durationEvent="true"        
+         title="AJAX deployed off west coast of South America" color="blue">
+  (NH.n)
+  </event>
+  <event start="1939-01-27T06:20:00-02:00"
+  title="Earthquake disaster relief" color="blue">
+  AJAX and EXETER detached to Talcuahano, Chile to assist local authority in rescue of victims following an earthquake. (NH.n)
+  </event>
+  <event start="1939-02-01T00:00:00-02:00"
+         end=  "1939-02-28T00:00:00-02:00"
+         durationEvent="false"        
+         title="AJAX returns to Bermuda" color="blue">
+  (NH.n)
+  </event>
+  <event start="1939-03-01T00:00:00-02:00"
+         end=  "1939-08-31T00:00:00-02:00"
+         durationEvent="true"        
+         title="AJAX deployed with South American Division in South Atlantic" color="blue">
+  (NH.n)
+  </event>
+  <event start="1939-09-03T11:00:00-00:00"
+  title="AJAX takes up war station" color="blue">
+  AJAX deployed for trade defence duty. (NH.n)
+  </event>
+  <event start="1939-09-03T11:00:00-00:00"
+  title="AJAX sinks OLINDA" color="blue">
+  HMS AJAX intercepts the German merchant Olinda (4576 GRT) off the coast of Uruguay in position 33°50'S, 53°30'W. The German ship is sunk by gunfire. (U.n)
+  </event>
+  <event start="1939-09-04T11:00:00-00:00"
+  title="AJAX sinks CARL FRITZEN" color="blue">
+  HMS AJAX intercepts the German merchant Carl Fritzen (6594 GRT) in the South Atlantic off the coast off Uruguay in position 34°19'S, 48°29'W. However before the ship can be captured she is scuttled by her crew. (U.n)
+  </event>
+  <event start="1939-09-11T00:00:00-02:00"
+  title="AJAX at the Falklands" color="blue">
+  Guardship at Port Stanley and carried out patrol in Falklands area. (NH.n)
+  </event>
+  <event start="1939-09-21T00:00:00-02:00"
+  title="AJAX patrols trade routes" color="blue">
+  Redeployed on trade defence between Plate Estuary and Rio de Janeiro. (NH.n)
+  </event>
+  <event start="1939-10-03T00:00:00-02:00"
+  title="AJAX and EXETER join" color="blue">
+  AJAX joined HM Cruiser EXETER after sinking of ss CLEMENT by German battleship GRAF SPEE which had left Germany before the outbreak of war. (NH.n)
+  </event>
+  <event start="1939-10-05T00:00:00-02:00"
+  title="Formation of Force G" color="blue">
+  AJAX deployed with HM Cruisers EXETER and CUMBERLAND as Force G Hunting Group in South Atlantic to search for GRAF SPEE. (NH.n)
+  </event>
+  <event start="1939-11-27T00:00:00-02:00"
+  title="AJAX arrives at Port Stanley" color="blue">
+  (NH.n)
+  </event>
+  <event start="1939-12-05T00:00:00-02:00"
+  title="Interception of USSUKUMA" color="blue">
+  The German passenger ship Ussukuma (7834 GRT) is intercepted in the South Atlantic off Bahia Blanca, Argentina in position 39°25'S, 57°15'W by the British heavy cruiser HMS Cumberland and the British light cruiser HMS Ajax. However, before the German ship can be captured she is scuttled by her own crew. (U.n)
+  </event>
+  <event start="1939-12-16T00:00:00-02:00"
+         end=  "1939-12-17T00:00:00-02:00"
+         durationEvent="true"        
+         title="On watch off Rio de la Plata" color="blue">
+  HMS AJAX, HMS CUMBERLAND and HMS ACHILLES remained off Plate estuary. (NH.n)
+  </event>
+  <event start="1939-12-18T00:00:00-02:00"
+         end=  "1939-12-28T00:00:00-02:00"
+         durationEvent="true"        
+         title="AJAX refuels" color="blue">
+  AJAX detached to refuel at Port Stanley. (NH.n)
+  </event>
+  <event start="1939-12-18T00:00:00-02:00"
+         title="AJAX resumes trade defence duty" color="blue">
+  (NH.n)
+  </event>
+  <event start="1940-01-01T00:00:00-02:00"
+         title="AJAX visits Montevideo" color="blue">
+  (NH.n)
+  </event>
+  <event start="1940-01-05T00:00:00-02:00"
+         end=  "1940-01-19T00:00:00-02:00"
+         durationEvent="true"        
+        title="AJAX makes passage to Freetown" color="blue">
+  Passage to Freetown, via Rio de Janeiro. Joined by HM Aircraft Carrier ARK ROYAL, HM Battlecruiser RENOWN, HM Destroyers HASTY, HERO, DAINTY and DIAMOND during passage (NH.n)
+  </event>
+  <event start="1940-01-22T00:00:00-02:00"
+         end=  "1940-01-31T00:00:00-02:00"
+         durationEvent="true"        
+        title="AJAX makes passage to Plymouth for refit" color="blue">
+  (NH.n)
+  </event>
+ 
+  
+  </data><!-- Edit Tue 20 Sep 13:31:46 BST 2016 -->
+ 
