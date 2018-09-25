@@ -26,13 +26,20 @@
 .video-thumbnail {
     width: 15vw;
     height: auto;
-    border: 1px solid #BCB79E;
-    background: #F0FFF0;
+    border: 1px solid #c3b64f;
+    background: rgba(195, 182, 79, 0.1);
     padding: 1em;
     margin: 0.5em;
     text-align: center;
 }
 
+div.exhibit-facet-body {
+    border-color: #c3b64f !important;
+}
+
+.exhibit-text-facet input{
+    border-color: #c3b64f !important;
+}
 
 @media (max-width: 768px) {
     h1, .h1 {
@@ -41,8 +48,8 @@
     .video-thumbnail {
         width: 90vw;
         height: auto;
-        border: 1px solid #BCB79E;
-        background: rgb(140, 197, 140);
+        border: 1px solid #c3b64f;
+        background: rgba(195, 182, 79, 0.1);
         padding: 1em;
         margin: 0.5em;
         text-align: center;
