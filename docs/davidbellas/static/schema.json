@@ -1,0 +1,25 @@
+{
+    "types": {
+        "video": {
+            "pluralLabel": "Vídeos"
+        },
+        "playlist": {
+            "pluralLabel": "Playlists"
+        }
+    },
+    "properties": {
+        "imagen": {
+            "valueType": "url"
+        },
+        "playlistId": {
+            "valueType":              "item"
+        },
+        
+        "publishedAt": {
+            "valueType":              "date",
+            "label":                  "Fecha de publicación"
+        }
+        
+    }
+}
+
