@@ -1,3 +1,11 @@
 cliente_secret.json
 tmp
 env
+__pycache__/
+
+playlists_bellas_yt.json
+playlists_mousike_yt.json
+videos_bellas_yt.json
+videos_carpintero_yt.json
+videos_mousike_yt.json
+videos_xmf_yt.json
