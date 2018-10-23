@@ -3,9 +3,9 @@
 from apiclient.discovery import build
 from apiclient.errors import HttpError
 import json
-#from .secret import DEVELOPER_KEY
+from .secret import DEVELOPER_KEY
 
-DEVELOPER_KEY = "AIzaSyCg2O20tAx14Awx4jat1N09lKxLtvckUf4"
+
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
