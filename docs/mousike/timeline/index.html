@@ -8,6 +8,7 @@
     <title>Vídeos Musikê La Laguna</title>
     <meta name="Description" content="Vídeos youtube de Musikê La Laguna. Línea temporal">
     <link href="../../static/videos_mousike.json" type="application/json" rel="exhibit-data" />
+    <link href="../../static/playlists_mousike.json" type="application/json" rel="exhibit-data" />
     <link href="../../static/schema.json" type="application/json" rel="exhibit-data" />
     
     <!-- libs simile-exhibit -->
@@ -169,14 +170,14 @@
 
     
         <div class="row collapse in" id="controles">
-            <div class="col-md-6" data-ex-role="exhibit-facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Buscar" 
+            <div class="col-md-4" data-ex-role="exhibit-facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Buscar" 
             data-ex-expressions=".label, .playlistId.label"></div>
-            <div class="col-md-6" data-ex-role="facet" data-ex-expression="yearOf(.publishedAt)" 
+            <div class="col-md-4" data-ex-role="facet" data-ex-expression="yearOf(.publishedAt)" 
             data-ex-collapsible="true" data-ex-facet-label="Año de publicación"
             data-ex-sort-direction="reverse"></div>
-            
+            <div class="col-md-4" data-ex-role="facet" data-ex-expression=".playlistId" data-ex-facet-label="Playlists"
+            data-ex-collapsible="true"></div>
         </div>
-        
 
         <div data-ex-role="viewPanel" style="padding: 1em 0.5in;">
                        
@@ -186,7 +187,7 @@
                 data-ex-bottom-band-unit="year"
                 data-ex-top-band-unit="month"
                 data-ex-icon-key=".playlistId"
-                data-ex-show-summary="false"
+                data-ex-show-summary="true"
                 
 
 
