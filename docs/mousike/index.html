@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
     <title>Vídeos Mousike La Laguna</title>
     <meta name="Description" content="Vídeos youtube de Mousikê La Laguna">
-
+    <link href="../static/playlists_mousike.json" type="application/json" rel="exhibit-data" />
     <link href="../static/videos_mousike.json" type="application/json" rel="exhibit-data" />
     <link href="../static/schema.json" type="application/json" rel="exhibit-data" />
     
@@ -186,15 +186,16 @@
         <div class="container">
         <button class="visible-xs"  data-toggle="collapse" data-target="#controles"> <span class="glyphicon glyphicon-sort"></span></button>
 
+       
         <div class="row collapse in" id="controles">
-            <div class="col-md-6" data-ex-role="exhibit-facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Buscar" 
-            data-ex-expressions=".label, .description"></div>
-            <div class="col-md-6" data-ex-role="facet" data-ex-expression="yearOf(.publishedAt)" 
+            <div class="col-md-4" data-ex-role="exhibit-facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Buscar" 
+            data-ex-expressions=".label, .playlistId.label"></div>
+            <div class="col-md-4" data-ex-role="facet" data-ex-expression="yearOf(.publishedAt)" 
             data-ex-collapsible="true" data-ex-facet-label="Año de publicación"
             data-ex-sort-direction="reverse"></div>
-            
+            <div class="col-md-4" data-ex-role="facet" data-ex-expression=".playlistId" data-ex-facet-label="Playlists"
+            data-ex-collapsible="true"></div>
         </div>
-        
 
         <div data-ex-role="viewPanel" style="padding: 1em 0.5in;">
 
