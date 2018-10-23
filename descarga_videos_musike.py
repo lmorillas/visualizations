@@ -6,7 +6,7 @@ import json
 from descarga_videos import *
 from crea_ex_json import *
 
-RUTA = 'videos_bellas/docs/static/'
+RUTA = 'docs/static/'
         
 if __name__ == '__main__':
 
