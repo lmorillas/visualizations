@@ -7,10 +7,8 @@ def crea_videos_exhibit(entrada, salida):
     videos = json.load(open(entrada))
     for v in videos:
         try:
-            if v['status']['privacyStatus'] == 'public' and \
+            if v.get('status') and v['status']['privacyStatus'] == 'public' and \
                 v['snippet']['title'] != 'Deleted video':
-
-
                 d = v.get('snippet')
                 k = {}
                 k['url'] = d['resourceId']['videoId']
