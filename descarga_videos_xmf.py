@@ -5,25 +5,21 @@ from apiclient.errors import HttpError
 import json
 from descarga_videos import *
 from crea_ex_json import *
+from muxicas import *
 
 RUTA = 'docs/static/'
-        
+
 if __name__ == '__main__':
+    schema = json.load(open('schema.json'))
 
     yt = connect_youtube()
 
-    channelId = "UC5NVNZjoW0G40JJnygtGHAA"
-
     videos = todos_los_videos_canal(yt, channelId)
-    #videos2 = todos_los_videos_2(yt, channelId)
 
-    
-    json.dump(videos, open('videos_xmf_yt.json', 'w'))
-    crea_videos_exhibit('videos_xmf_yt.json', RUTA + 'videos_muxicas.json')
-    
-
-    
-
+    json.dump(videos, open('videos_yt.json', 'w'))
+    videose = crea_videos_exhibit('videos_yt.json')
+    crea_index(ruta = RUTAINDEX, schema = schema, data = {"items": videose},
+        title = title, description = description)
 
 
         

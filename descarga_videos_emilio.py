@@ -5,33 +5,33 @@ from apiclient.errors import HttpError
 import json
 from descarga_videos import *
 from crea_ex_json import *
+from emiliovillalba import *
 
 RUTA = 'docs/static/'
         
 if __name__ == '__main__':
 
     yt = connect_youtube()
-
-    channelId = "UC5i2qJffEjieDZyGFzDzeFg"
-    username = ''
-
+    schema = json.load(open('schema.json'))
     
-    playlists = get_playlists(yt, channelId)
-
-    #videos = fetch_all_youtube_videos(yt, "PLybE0q7GFyrbQSrWNgci8QJ60gQjQKLlH")
+    if playlist:
+        playlists = get_playlists(yt, channelId)
+        json.dump(playlists, open('playlists_yt.json', 'w'))
+        
     videos  = todos_los_videos_playlist(yt, playlists)
     ids = [x['snippet']['resourceId']['videoId'] for x in videos]
-    
     videosCanal = todos_los_videos_canal(yt, channelId)
     videosCanal  = [v   for v in videosCanal if v['id']['kind'] == 'youtube#video' ]
     noestan = [v for v in videosCanal if v['id']['videoId'] not in ids]
     videos.extend(noestan)
-    #videos2 = todos_los_videos_2(yt, channelId)
 
-    json.dump(playlists, open('playlists_emiliovillalba_yt.json', 'w'))
-    json.dump(videos, open('videos_emiliovillalba_yt.json', 'w'))
-    crea_videos_exhibit('videos_emiliovillalba_yt.json', RUTA + 'videos_emiliovillalba.json')
-    crea_playlist_exhibit('playlists_emiliovillalba_yt.json', RUTA + 'playlists_emiliovillalba.json')
-        
+    json.dump(videos, open('videos_yt.json', 'w'))
+    videos = crea_videos_exhibit('videos_yt.json' )
+
+    if playlist:
+        playlists = crea_playlist_exhibit('playlists_yt.json', separador='|')
+    else:
+        playlists = []
     
-
+    crea_index(ruta = RUTAINDEX, schema = schema, data = {"items": videos + playlists},
+        title = title, description = description, playlist=playlist)
