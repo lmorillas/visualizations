@@ -1,13 +1,13 @@
 import json
 
-def crea_videos_exhibit(entrada, salida):
+def crea_videos_exhibit(entrada, salida=None):
     items = []
     itemsd = {}
 
     videos = json.load(open(entrada))
     for v in videos:
         try:
-            if v.get('status') and v['status']['privacyStatus'] == 'public' and \
+            if v['status']['privacyStatus'] == 'public' and \
                 v['snippet']['title'] != 'Deleted video':
                 d = v.get('snippet')
                 k = {}
@@ -32,7 +32,8 @@ def crea_videos_exhibit(entrada, salida):
                     k['publishedAt'] = d.get('publishedAt')[:10]
                     k['description'] = d.get('description')
                     itemsd[k['url']] = k
-        except:
+        except  Exception as e:
+            print ('Exception --> ', e)
             if v['id']['kind'] == 'youtube#video':    
                 d = v.get('snippet')
                 k = {}
@@ -51,10 +52,12 @@ def crea_videos_exhibit(entrada, salida):
                         print(k, 'no imagen')
                         pass
                 itemsd[k['url']] = k
+    if salida:
+        json.dump({'items': list(itemsd.values())}, open(salida, 'w'))
+    else:
+        return list(itemsd.values())
 
-    json.dump({'items': list(itemsd.values())}, open(salida, 'w'))
-
-def crea_playlist_exhibit(entrada, salida, remove = None, separador=None):
+def crea_playlist_exhibit(entrada, salida=None, remove = None, separador=None):
     playlists = json.load(open(entrada))
     items = []
     for p in playlists.get('items'):
@@ -68,4 +71,7 @@ def crea_playlist_exhibit(entrada, salida, remove = None, separador=None):
                 k['label'] = k['label'].split(separador)[0].strip()
             k['type'] = 'playlist'
             items.append(k)
-    json.dump({'items': items}, open(salida, 'w'))
+    if salida:
+        json.dump({'items': items}, open(salida, 'w'))
+    else:
+        return items

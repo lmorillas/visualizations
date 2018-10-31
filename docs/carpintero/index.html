@@ -5,12 +5,12 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-    <title>Vídeos David Bellas</title>
+    <title>Vídeos Pablo Carpintero</title>
     <meta name="Description" content="Vídeos youtube de Pablo Carpintero">
 
-    <link href="../static/videos_carpintero.json" type="application/json" rel="exhibit-data" />
-    <link href="../static/schema.json" type="application/json" rel="exhibit-data" />
-    
+    <link href="#schema" type="application/json" rel="exhibit-data" />
+    <link href="#data" type="application/json" rel="exhibit-data" />
+      
     <!-- libs simile-exhibit -->
 
     <script src="//api.simile-widgets.org/exhibit/HEAD/lib/jquery.min.js" type="text/javascript">
@@ -24,19 +24,8 @@
     <script src="//cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">  
-        
         $(document).bind("dataload.exhibit", function() {
             $("input").addClass("form-control");
-            $('.desc').tooltip();
-        
-            $('a').bind('click',  function() {
-                $('.desc').tooltip();
-            });
-
-        });
-        
-        $(document).bind('onItemShow.exhibit', function() {
-            $('.desc').tooltip();
         });
 
         $(document).bind("scriptsLoaded.exhibit", function () {
@@ -46,9 +35,7 @@
                 },
                 "number");
         });
-    
     </script>
-
 
     <script type="text/javascript">
 
@@ -178,7 +165,7 @@
 
 <body>
 <header>
-    <h1 class="text-center">Vídeos Pablo Carpintero</h1>
+    <h1 class="text-center">Vídeos David Bellas</h1>
     <hr>
 </header>
     
@@ -187,12 +174,12 @@
         <button class="visible-xs"  data-toggle="collapse" data-target="#controles"> <span class="glyphicon glyphicon-sort"></span></button>
 
         <div class="row collapse in" id="controles">
-            <div class="col-md-6" data-ex-role="exhibit-facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Buscar" 
-            data-ex-expressions=".label, .description"></div>
-            <div class="col-md-6" data-ex-role="facet" data-ex-expression="yearOf(.publishedAt)" 
-            data-ex-collapsible="true" data-ex-facet-label="Año de publicación"
-            data-ex-sort-direction="reverse"></div>
-            
+                <div class="col-md-6" data-ex-role="exhibit-facet" data-ex-facet-class="TextSearch" data-ex-facet-label="Buscar" 
+                data-ex-expressions=".label, .description"></div>
+                <div class="col-md-6" data-ex-role="facet" data-ex-expression="yearOf(.publishedAt)" 
+                data-ex-collapsible="true" data-ex-facet-label="Año de publicación"
+                data-ex-sort-direction="reverse"></div>
+                
         </div>
         
 
@@ -200,7 +187,7 @@
 
             <div data-ex-role="view" data-ex-view-class="Thumbnail" data-ex-showall="false" data-ex-orders=".label" data-ex-grouped="false"
                 data-ex-paginate="true" data-ex-page-size="30" data-ex-show-controls="false" data-ex-possible-orders=".publishedAt ">
-<!--
+
                 <div data-ex-role="exhibit-lens" style="display: none;" class="video-thumbnail">
 
                     <div>
@@ -210,44 +197,28 @@
 
                     </div>
                     <div class="card-content">
-                        <p>
                         <a target="_blank" data-ex-href-content="concat('https://www.youtube.com/watch?&v=', .url)">
-                        <span data-ex-content=".label"></span></a>
-                        <span  class="desc" data-toggle="tooltip" data-placement="bottom" title="" data-ex-data-original-title-content=".description"><span><i class="glyphicon glyphicon-info-sign"></i></span>
-                        
-                        </p>
+                        <p data-ex-content=".label"></p>
+                        </a>
                     </div>
 
 
-
                 </div>
--->
-
-
-<div data-ex-role="exhibit-lens" style="display: none;" class="video-thumbnail"
-    data-ex-item-type="video">
-
-    <div>
-        <a target="_blank" data-ex-href-content="concat('https://www.youtube.com/watch?&v=', .url)">
-            <img data-ex-src-content=".imagen" alt="Imagen" class="img-responsive">
-        </a>
-
-    </div>
-    <div class="card-content">
-        <p>
-        <a target="_blank" data-ex-href-content="concat('https://www.youtube.com/watch?&v=', .url)">
-        <span data-ex-content=".label"></span></a>
-        <span  class="desc" data-toggle="tooltip" data-placement="bottom" title="" data-ex-data-original-title-content=".description"><span><i class="glyphicon glyphicon-info-sign"></i></span>
-        
-        </p>
-    </div>
-
-
-
-</div>
-
+            </div>
+            <!--
+            <div data-ex-role="view" 
+                data-ex-view-class="Timeline" 
+                data-ex-start=".publishedAt" >
+                    <div data-ex-role="lens" class="video-timeline-lens" style="display: none;">
+                            <img data-ex-src-content=".imagen"  alt="portrait"/>
+                            <div><span data-ex-content=".label"></span></div>
+                            
+                    </div>
 
             </div>
+            -->
+            
+
         </div>
     
 
@@ -256,6 +227,12 @@
 
 
     <!--  Scripts-->
+    <div id="schema" style="display:none">
+        {"types": {"video": {"pluralLabel": "V\u00eddeos"}, "playlist": {"pluralLabel": "Playlists"}}, "properties": {"imagen": {"valueType": "url"}, "playlistId": {"valueType": "item"}, "publishedAt": {"valueType": "date", "label": "Fecha de publicaci\u00f3n"}}}
+    </div>
+    <div id="data" style="display:none">
+            {"item s": []}
+    </div>
 
 </body>
 

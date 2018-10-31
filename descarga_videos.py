@@ -109,6 +109,21 @@ def todos_los_videos_canal(yt, canal):
         nextPageToken = nextPage.get('nextPageToken')
         
     return res['items']
+
+def crea_index(ruta, schema, data, title, description, playlist=None):
+    data = json.dumps(data)
+    #data = json.JSONEncoderForHTML().encode(data)
+    schema = json.dumps(schema)
+    
+    if playlist:
+        template = open('index_generico_playlist.html').read()
+    else:
+        template = open('index_generico.html').read()
+    open(ruta, 'w').write(template.format(data=data, schema=schema,
+            title=title, description = description ))
+
+
+
         
 if __name__ == '__main__':
     
