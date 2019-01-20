@@ -5,6 +5,7 @@ import urllib
 import requests
 from bs4 import BeautifulSoup
 import json
+from urllib.parse import parse_qs
 
 '''
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kinds-of-filters
@@ -34,7 +35,7 @@ for nid, r in enumerate(doc.find_all('tr')):
 
 
 output = []
-l = [''] * 10
+l = [''] * 11
 regex = re.compile(r'(https?://)?(www\.)?(youtube|youtu|youtube-nocookie)\.(com|be)/(watch\?v=|embed/|v/|.+\?v=)?(?P<id>[A-Za-z0-9\-=_]{11})')
 for fila in datos:
     res = l[:]
@@ -47,16 +48,28 @@ for fila in datos:
                 match = regex.match(link)
                 if match:
                     link = match.group('id')
-                res[-3] = link
+                    res[-4] = link
+                else:
+                    p = urlparse(link)
+                    if p.query:
+                        q = parse_qs(p.query)
+                        if q.get('video_id'):
+                            res[-4] = q.get('video_id')                
             elif n == 3:
-                res[-2] = res[3]
+                res[-3] = link.split('&')[0]
                 # res[n] = urlparse(res[n]).path.split('/')[-1]
+                
             else:
                 link = link.split('&')[0]
                 #print(link)
-                res[-1] = link
+                res[-2] = link
         else:
-            res[n] = d
+            
+            if n == 1 and 'Tutorial:' in d:
+                res[n] = 'Tutorial'
+                res[10] = d.replace('Tutorial:', '').strip()
+            else:
+                res[n] = d
     output.append(res)
 
 w = csv.writer(open('improvisor.csv', 'w'))
@@ -69,7 +82,8 @@ h = ['id',
  'Comments',
  'title_url',
  'ls_url',
- 'poster_url']
+ 'poster_url',
+ 'grade_tutorial']
 w.writerow(h)
 w.writerows(output[2:])
 

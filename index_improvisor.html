@@ -94,6 +94,8 @@
           data-ex-collapsible="true"></div>
         <div class="col s12 m3" data-ex-role="facet" data-ex-expression="yearOf(.Date)" data-ex-facet-label="Year"
           data-ex-collapsible="true" data-ex-sort-direction="reverse"></div>
+        <!--<div class="col s12" data-ex-role="facet" data-ex-expression="." data-ex-collapsible="true"></div>  
+        -->
       </div>
     </div>
   </div>
@@ -116,6 +118,9 @@
             <a target="_blank" data-ex-href-content="concat('https://www.youtube.com/watch?v=', .title_url)">
               <p data-ex-content=".label"></p>
             </a>
+            <div data-ex-if-exists=".grade_tutorial">
+              <p></p><i data-ex-content=".grade_tutorial"></i></p>
+            </div>
             <div data-ex-if-exists=".ls_url">
               <a target="_blank" data-ex-href-content=".ls_url">
                 <i class="fas fa-clipboard-list"></i> Leadsheet</a>
