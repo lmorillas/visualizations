@@ -98,7 +98,7 @@
         -->
       </div>
     </div>
-  </div>
+  
   <div class="section">
     <div data-ex-role="viewPanel" style="padding: 1em 0.5in;">
 
@@ -126,6 +126,11 @@
                 <i class="fas fa-clipboard-list"></i> Leadsheet</a>
               </a>
             </div>
+            <div data-ex-if-exists=".lspdf">
+              <a target="_blank" data-ex-href-content=".lspdf">
+                <i class="far fa-file-pdf"></i></a>
+              </a>
+            </div>
             <div>By <span data-ex-content=".Poster"></span>
               <span data-ex-if-exists=".poster_url"> <a data-ex-href-content='.poster_url'><i class="fas fa-user"></i> </a></span>
             </div>
@@ -137,7 +142,7 @@
       </div>
     </div>
   </div>
-
+</div>
 
 
 

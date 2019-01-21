@@ -35,7 +35,7 @@ for nid, r in enumerate(doc.find_all('tr')):
 
 
 output = []
-l = [''] * 11
+l = [''] * 12
 regex = re.compile(r'(https?://)?(www\.)?(youtube|youtu|youtube-nocookie)\.(com|be)/(watch\?v=|embed/|v/|.+\?v=)?(?P<id>[A-Za-z0-9\-=_]{11})')
 for fila in datos:
     res = l[:]
@@ -58,7 +58,8 @@ for fila in datos:
             elif n == 3:
                 res[-3] = link.split('&')[0]
                 # res[n] = urlparse(res[n]).path.split('/')[-1]
-                
+            elif n == 4:
+                pass
             else:
                 link = link.split('&')[0]
                 #print(link)
@@ -67,7 +68,7 @@ for fila in datos:
             
             if n == 1 and 'Tutorial:' in d:
                 res[n] = 'Tutorial'
-                res[10] = d.replace('Tutorial:', '').strip()
+                res[-1] = d.replace('Tutorial:', '').strip()
             else:
                 res[n] = d
     output.append(res)
@@ -77,6 +78,7 @@ h = ['id',
  'Category',
  'label',
  'Leadsheet',
+ 'lspdf',
  'Date',
  'Poster',
  'Comments',
