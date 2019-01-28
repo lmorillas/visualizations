@@ -28,7 +28,8 @@
     height: auto;
     border: 1px solid #c3b64f;
     background: rgba(195, 182, 79, 0.1);
-    padding: 1em;
+    padding: 0em;
+    padding-top: 0.5em;
     margin: 0.5em;
     text-align: center;
 }
