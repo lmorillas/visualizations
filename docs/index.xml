@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Factoría de Gaitas de Arguis</title>
+    <link>https://www.factoriadegaitas.es/</link>
+    <description>Recent content in Home on Factoría de Gaitas de Arguis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 12 Feb 2018 15:37:57 +0700</lastBuildDate>
+    
+	<atom:link href="https://www.factoriadegaitas.es/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Madera</title>
+      <link>https://www.factoriadegaitas.es/mis-gaitas/madera/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://www.factoriadegaitas.es/mis-gaitas/madera/</guid>
+      <description>La madera utilizada es el BOJ DEL PIRINEO. El boj está protegido y se vende mediante permisos (trabajamos únicamente con madera cortada legalmente).
+Los adornos, que aportan ese toque estético tan interesante a las gaitas de La Factoría, están realizados en GRANADILLO (la madera más densa que hay), NAZARENO y PALO SANTO.
+La gran calidad de estos materiales y el contraste estético resultante del abrazo entre ellos, hacen de estas gaitas instrumentos únicos.</description>
+    </item>
+    
+    <item>
+      <title>Composiciones</title>
+      <link>https://www.factoriadegaitas.es/composiciones/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.factoriadegaitas.es/composiciones/</guid>
+      <description>Nuevas Tonadas VI Colaboración en edición nº VI de Nuevas Tonadas, publicación de la Banda de Gaitas de Boto Aragonesas.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,8 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://lmorillas.github.io/visualizations/</loc><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://lmorillas.github.io/visualizations/carpintero</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
-<url><loc>https://lmorillas.github.io/visualizations/davidbellas</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
-<url><loc>https://lmorillas.github.io/visualizations/emiliovillalba</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
-<url><loc>https://lmorillas.github.io/visualizations/improVisor</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
-<url><loc>https://lmorillas.github.io/visualizations/mousike</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
-<url><loc>https://lmorillas.github.io/visualizations/muxicas</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.factoriadegaitas.es/mis-gaitas/madera/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.factoriadegaitas.es/mis-gaitas/</loc>
+    <lastmod>2019-03-27T11:08:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.factoriadegaitas.es/composiciones/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.factoriadegaitas.es/</loc>
+    <lastmod>2018-02-12T15:37:57+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.factoriadegaitas.es/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.factoriadegaitas.es/pages/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.factoriadegaitas.es/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
 </urlset>
